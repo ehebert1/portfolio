@@ -2,13 +2,11 @@ let lang = "en"
 let dataStrings;
 
 window.onload = () => {
-    if (document.cookie.split("; ").find((row) => row.startsWith("lang=")) === undefined) {
+    if (CookieManager.getCookie("lang") === undefined) {
+        CookieManager.setCookie("lang", "en")
         document.cookie = `lang=en;max-age=${7 * 24 * 60 * 60}`
     }
-    lang = document.cookie
-        .split("; ")
-        .find((row) => row.startsWith("lang="))
-        ?.split("=")[1];
+    lang = CookieManager.getCookie("lang")
 
     fetch("/data/dictionnary.json")
         .then((response) => response.json())
@@ -31,9 +29,6 @@ function langSwitch() {
 }
 
 function assignLangCookie(language) {
-    document.cookie = `lang=${language.toLowerCase()};max-age=${7 * 24 * 60 * 60}`
-    lang = document.cookie
-        .split("; ")
-        .find((row) => row.startsWith("lang="))
-        ?.split("=")[1];
+    CookieManager.setCookie("lang", language.toLowerCase())
+    lang = CookieManager.getCookie("lang")
 }
