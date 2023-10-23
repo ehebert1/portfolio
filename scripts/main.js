@@ -1,4 +1,5 @@
 let lang = "en"
+let dataStrings;
 
 window.onload = () => {
     if (document.cookie.split("; ").find((row) => row.startsWith("lang=")) === undefined) {
@@ -8,4 +9,18 @@ window.onload = () => {
         .split("; ")
         .find((row) => row.startsWith("lang="))
         ?.split("=")[1];
+
+    fetch("/data/dictionnary.json")
+        .then((response) => response.json())
+        .then((json) => {
+            dataStrings = json
+            updateStrings()
+        })
+}
+
+function updateStrings() {
+    document.querySelectorAll("[data-string]")
+        .forEach((elm) => {
+            elm.textContent = dataStrings[lang][elm.attributes["data-string"].value]
+        })
 }
