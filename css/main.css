@@ -24,6 +24,10 @@ body {
 .nav-item {
     padding: 5px;
 }
+#nav-list a {
+    text-decoration: none;
+    color: black;
+}
 .nav-title {
     font-weight: bold;
 }
