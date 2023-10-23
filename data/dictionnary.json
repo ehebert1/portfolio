@@ -2,11 +2,13 @@
     "en": {
         "home": "Home",
         "about-me": "About me",
-        "projects": "Projects"
+        "projects": "Projects",
+        "lang": "FR"
     },
     "fr": {
         "home": "Accueil",
         "about-me": "À propos",
-        "projects": "Projets"
+        "projects": "Projets",
+        "lang": "EN"
     }
 }
