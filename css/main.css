@@ -30,3 +30,8 @@ body {
 .nav-item.active {
     font-weight: 500;
 }
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
