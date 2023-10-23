@@ -18,7 +18,7 @@ window.onload = () => {
 function updateStrings() {
     document.querySelectorAll("[data-string]")
         .forEach((elm) => {
-            elm.textContent = dataStrings[lang.toLowerCase()][elm.attributes["data-string"].value]
+            elm.innerHTML = dataStrings[lang.toLowerCase()][elm.attributes["data-string"].value]
         })
 }
 

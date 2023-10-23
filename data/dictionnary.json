@@ -3,6 +3,7 @@
         "about-me": "About me",
         "developer": "Éric Hébert",
         "home": "Home",
+        "home-content": "<h2>Éric Hébert - Video Game Developer</h2><p>I am Éric Hébert, a student in video game development at Université du Québec à Chicoutimi. I am capable with multiple game engines, notably Unreal Engine, Unity 3D and PhaserJS. I invite you to browse my site.</p><h2>About me</h2><p>Visit my <a href=\"about.html\">About me</a> page. In this page, you will be able to learn more about myself, my skill as well as my experience.</p><h2>Projects</h2><p>I invite you to visit my <a href=\"projects.html\">projects</a> page. This page has everything regarding my video game projects.</p>",
         "lang": "FR",
         "projects": "Projects"
     },
@@ -10,6 +11,7 @@
         "about-me": "À propos",
         "developer": "Éric Hébert",
         "home": "Accueil",
+        "home-content": "<h2>Éric Hébert - Développeur de jeux vidéo</h2><p>Je suis Éric Hébert, un étudiant en développement de jeux vidéo à l'Université du Québec à Chicoutimi. Je suis habile avec plusieurs moteur de jeux, notamment Unreal Engine, Unity 3D ainsi que PhaserJS. Je vous invite à naviguer mon site.</p><h2>À propos</h2><p>Visitez ma page <a href=\"about.html\">À propos</a>. Dans cette page, vous pourrez en apprendre un peu plus à propos de moi, mes compétences ainsi que mon expérience.</p><h2>Projets</h2><p>Je vous invite à voir ma page <a href=\"projects.html\">projets</a>. Cette page contient tous mes projets reliés au développement de jeux vidéos.</p>",
         "lang": "EN",
         "projects": "Projets"
     }
