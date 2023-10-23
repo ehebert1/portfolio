@@ -1,14 +1,16 @@
 {
     "en": {
-        "home": "Home",
         "about-me": "About me",
-        "projects": "Projects",
-        "lang": "FR"
+        "developer": "Éric Hébert",
+        "home": "Home",
+        "lang": "FR",
+        "projects": "Projects"
     },
     "fr": {
-        "home": "Accueil",
         "about-me": "À propos",
-        "projects": "Projets",
-        "lang": "EN"
+        "developer": "Éric Hébert",
+        "home": "Accueil",
+        "lang": "EN",
+        "projects": "Projets"
     }
 }

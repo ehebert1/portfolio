@@ -1,6 +1,9 @@
 .debug * {
     border: 1px dashed green;
 }
+* {
+    font-family: "Segoe UI";
+}
 body {
     margin: 0;
 }
@@ -15,4 +18,12 @@ body {
 }
 .nav-item.nav-item-right {
     float: right;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+.nav-item {
+    padding: 5px;
+}
+.nav-title {
+    font-weight: bold;
 }
