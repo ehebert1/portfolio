@@ -4,7 +4,6 @@ let dataStrings;
 window.onload = () => {
     if (CookieManager.getCookie("lang") === undefined) {
         CookieManager.setCookie("lang", "en")
-        document.cookie = `lang=en;max-age=${7 * 24 * 60 * 60}`
     }
     lang = CookieManager.getCookie("lang")
 
