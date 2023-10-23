@@ -27,3 +27,6 @@ body {
 .nav-title {
     font-weight: bold;
 }
+.nav-item.active {
+    font-weight: 500;
+}
