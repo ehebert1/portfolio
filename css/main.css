@@ -48,3 +48,9 @@ body {
 #content div {
     width: 70%;
 }
+h4.no-space {
+    margin-bottom: 0;
+}
+p.no-space {
+    margin-top: 0;
+}
