@@ -45,7 +45,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-#content div {
+#content #content-body {
     width: 70%;
 }
 h4.no-space {
@@ -53,4 +53,25 @@ h4.no-space {
 }
 p.no-space {
     margin-top: 0;
+}
+.image-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img.skill-image {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+    box-shadow: 0 0 3px 3px #ddd;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+    user-select: none;
+}
+img.skill-image:hover {
+    transform: scale(1.03);
 }
