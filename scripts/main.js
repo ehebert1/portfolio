@@ -31,3 +31,13 @@ function assignLangCookie(language) {
     CookieManager.setCookie("lang", language.toLowerCase())
     lang = CookieManager.getCookie("lang")
 }
+
+function updateContent(selector, dataString) {
+    document.querySelector(selector).attributes["data-string"].value = dataString
+}
+
+function updateSkillContent(dataStringPrefix) {
+    updateContent("#skills-header", `about-me-${dataStringPrefix}-title`)
+    updateContent("#skills-content", `about-me-${dataStringPrefix}-content`)
+    updateStrings()
+}
