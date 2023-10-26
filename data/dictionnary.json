@@ -31,6 +31,12 @@
         "home": "Home",
         "lang": "FR",
         "projects": "Projects",
+        "projects-encage-introduction": "",
+        "projects-encage-my-role": "",
+        "projects-encage-my-role-content": "",
+        "projects-encage-ai": "",
+        "projects-encage-ai-introduction": "",
+        "projects-encage-ai-detection": "",
         "projects-home-content": "I invite you to visit my <a href=\"projects.html\">projects</a> page. This page has everything regarding my video game projects."
     },
     "fr": {
@@ -65,6 +71,12 @@
         "home": "Accueil",
         "lang": "EN",
         "projects": "Projets",
+        "projects-encage-introduction": "<i>Encagé</i> est un jeu narratif à la troisième personne où le personnage principal vient d'une famille de chasseur d'oiseaux. Elle hérite du magasin après le décès de son père et elle doit capturer des oiseaux pour obtenir des plumes pour répondre aux commandes de ses clients. Au cours de son travail, elle se questionne sur l'éthique de ses pratiques.",
+        "projects-encage-my-role": "Mon rôle",
+        "projects-encage-my-role-content": "Du point de vue de la programmation, nous avions deux grandes parties dans le projet, soit l'intelligence artificielle ainsi que les commandes que notre personnage principal doit compléter. Ces deux parties ont portés différents défis que nous avons du relevé pour que notre jeu puisse avoir un <i>gameplay</i> qui transporte les joueurs au Québec au début du 20<sup>e</sup> siècle.",
+        "projects-encage-ai": "Intelligence artificielle",
+        "projects-encage-ai-detection": "Détection",
+        "projects-encage-ai-introduction": "Le plus grand défi de notre projet était sans aucun doute l'intelligence artificielle des oiseaux. Puisque le coeur de notre jeu repose sur la capture d'oiseau pour l'entreprise familiale, nous devions nous assurer que l'oiseau ait le comportement d'un oiseau de la vie de tous les jours. Ceci était plus compliqué que nous le pensions puisque nous n'avions pas beaucoup d'expérience avec l'intelligence artificielle dans <i>Unreal Engine</i>.",
         "projects-home-content": "Je vous invite à voir ma page <a href=\"projects.html\">projets</a>. Cette page contient tous mes projets reliés au développement de jeux vidéos."
     }
 }
