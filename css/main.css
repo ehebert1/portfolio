@@ -154,3 +154,12 @@ img.project-image {
 .bird-image {
     width: 100%;
 }
+.icon {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon img{
+    width: 20px;
+}
