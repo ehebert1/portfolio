@@ -31,14 +31,15 @@
         "home": "Home",
         "lang": "FR",
         "projects": "Projects",
-        "projects-encage-introduction": "",
-        "projects-encage-my-role": "",
-        "projects-encage-my-role-content": "",
         "projects-encage-ai": "",
         "projects-encage-ai-introduction": "",
         "projects-encage-ai-detection": "",
         "projects-encage-ai-detection-content": "",
         "projects-encage-ai-detection-content-next": "",
+        "projects-encage-introduction": "",
+        "projects-encage-members": "",
+        "projects-encage-my-role": "",
+        "projects-encage-my-role-content": "",
         "projects-home-content": "I invite you to visit my <a href=\"projects.html\">projects</a> page. This page has everything regarding my video game projects."
     },
     "fr": {
@@ -73,14 +74,15 @@
         "home": "Accueil",
         "lang": "EN",
         "projects": "Projets",
-        "projects-encage-introduction": "<i>Encagé</i> est un jeu narratif à la troisième personne où le personnage principal vient d'une famille de chasseur d'oiseaux. Elle hérite du magasin après le décès de son père et elle doit capturer des oiseaux pour obtenir des plumes pour répondre aux commandes de ses clients. Au cours de son travail, elle se questionne sur l'éthique de ses pratiques.",
-        "projects-encage-my-role": "Mon rôle",
-        "projects-encage-my-role-content": "Du point de vue de la programmation, nous avions deux grandes parties dans le projet, soit l'intelligence artificielle ainsi que les commandes que notre personnage principal doit compléter. Ces deux parties ont portés différents défis que nous avons du relevé pour que notre jeu puisse avoir un <i>gameplay</i> qui transporte les joueurs au Québec au début du 20<sup>e</sup> siècle.",
         "projects-encage-ai": "Intelligence artificielle",
         "projects-encage-ai-detection": "Détection",
         "projects-encage-ai-detection-content": "Pour la détection, nous devions changer le comportement de l'oiseau dépendamment du mouvement du joueur. L'oiseau va se baser sur deux sens, soit la vision et le son. Au niveau du son, plus que le personnage bouge rapidement, plus que l'oiseau va réagir. La zone de détection du son est le plus gros cercle montrer dans l'image ci-contre. Selon la force du son, une certaine partie proportionnelle à la force du son est utilisée. Cette proportion est basée sur la vitesse courante du joueur sur la vitesse maximale du joueur. Donc, si le joueur court à 50% de la vitesse maximale, la proportion utilisée du cercle sera de 50%.",
         "projects-encage-ai-detection-content-next": "Ensuite il y a la détection visuelle de l'oiseau. Celui-ci est seulement visible une zone correspondant à 60 degrés en avant de l'oiseau dans le petit cercle montré dans l'image ci-haut. Cette section est plus punitive que le son puisque l'oiseau se sent plus en danger lorsque le personnage est aussi proche de lui. Nous avions eu un bogue relié à la détection qui empêchait que le son et la vue d'être détecté en même temps. J'ai du regarder un peu plus profondément dans le moteur d'<i>Unreal Engine</i>, mais j'ai trouvé un endroit où sont stocké les sens et on peut voir s'ils sont activé en même. Donc, à chaque que la perception est mise à jour, je vérifie si les deux sens sont activés en même temps. Une fois que la détection est faite, nous avons une fonction qui s'exécute à chaque 50 millisecondes qui change la force de détection de l'oiseau et lorsque l'oiseau atteint un certain taux, il va s'enfuir.",
         "projects-encage-ai-introduction": "Le plus grand défi de notre projet était sans aucun doute l'intelligence artificielle des oiseaux. Puisque le coeur de notre jeu repose sur la capture d'oiseau pour l'entreprise familiale, nous devions nous assurer que l'oiseau ait le comportement d'un oiseau de la vie de tous les jours. Ceci était plus compliqué que nous le pensions puisque nous n'avions pas beaucoup d'expérience avec l'intelligence artificielle dans <i>Unreal Engine</i>.",
+        "projects-encage-introduction": "<i>Encagé</i> est un jeu narratif à la troisième personne où le personnage principal vient d'une famille de chasseur d'oiseaux. Elle hérite du magasin après le décès de son père et elle doit capturer des oiseaux pour obtenir des plumes pour répondre aux commandes de ses clients. Au cours de son travail, elle se questionne sur l'éthique de ses pratiques.",
+        "projects-encage-members": "Membres de l'équipe",
+        "projects-encage-my-role": "Mon rôle",
+        "projects-encage-my-role-content": "Du point de vue de la programmation, nous avions deux grandes parties dans le projet, soit l'intelligence artificielle ainsi que les commandes que notre personnage principal doit compléter. Ces deux parties ont portés différents défis que nous avons du relevé pour que notre jeu puisse avoir un <i>gameplay</i> qui transporte les joueurs au Québec au début du 20<sup>e</sup> siècle.",
         "projects-home-content": "Je vous invite à voir ma page <a href=\"projects.html\">projets</a>. Cette page contient tous mes projets reliés au développement de jeux vidéos."
     }
 }

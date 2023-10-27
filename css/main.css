@@ -7,7 +7,7 @@
 body {
     margin: 0;
 }
-body p {
+body p, body li {
     font-size: 1.4em;
 }
 #content, #footer {
