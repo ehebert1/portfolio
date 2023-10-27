@@ -13,11 +13,17 @@ body p, body li {
 #content, #footer {
     margin: 20px;
 }
+#navbar {
+    background-color: #333;
+}
 #nav-list {
     list-style: none;
+    margin: 0;
+    padding: 15px;
 }
 #nav-list * {
     display: inline;
+    color: white;
 }
 .nav-item.nav-item-right {
     float: right;
@@ -26,6 +32,9 @@ body p, body li {
 }
 .nav-item {
     padding: 5px;
+}
+.nav-item:hover:not(.nav-title) {
+    font-weight: 500;
 }
 #nav-list a {
     text-decoration: none;
@@ -98,4 +107,7 @@ img.project-image {
 .detection-container {
     display: flex;
     flex-direction: row;
+}
+.image-border {
+    border: 1px solid black;
 }
