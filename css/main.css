@@ -90,6 +90,11 @@ img.project-image {
     width: 60%;
     border: 1px solid black;
 }
+.order-validation {
+    width: 70%;
+    margin: 0;
+    padding-right: 5px;
+}
 .detection-container {
     display: flex;
     flex-direction: row;
