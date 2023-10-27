@@ -100,7 +100,6 @@ const data = {
 }
 
 let lang = "en"
-let dataStrings;
 
 window.onload = () => {
     if (CookieManager.getCookie("lang") === undefined) {
