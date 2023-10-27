@@ -99,11 +99,11 @@ const data = {
     }
 }
 
-let lang = "en"
+let lang = "fr"
 
 window.onload = () => {
     if (CookieManager.getCookie("lang") === undefined) {
-        CookieManager.setCookie("lang", "en")
+        CookieManager.setCookie("lang", "fr")
     }
     lang = CookieManager.getCookie("lang")
     updateStrings()
