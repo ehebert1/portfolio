@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 body p {
-    font-size: 20px;
+    font-size: 1.4em;
 }
 #content, #footer {
     margin: 20px;
@@ -80,4 +80,17 @@ img.skill-image:hover {
 }
 img.project-image {
     width: 100%;
+}
+.detection-text {
+    width: 40%;
+    margin: 0;
+    padding-right: 5px;
+}
+.detection-image {
+    width: 60%;
+    border: 1px solid black;
+}
+.detection-container {
+    display: flex;
+    flex-direction: row;
 }
