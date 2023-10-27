@@ -99,11 +99,12 @@ img.skill-image:hover {
 }
 img.project-image {
     width: 100%;
+    box-shadow: 0px 3px 4px 3px #ccc;
 }
 .detection-text {
     width: 40%;
     margin: 0;
-    padding-right: 5px;
+    margin-right: 5px;
 }
 .detection-image {
     width: 60%;
@@ -146,4 +147,7 @@ img.project-image {
 .nav-lang {
     user-select: none;
     cursor: pointer;
+}
+.code-image {
+    box-shadow: 0px 2px 3px 2px #aaa;
 }
