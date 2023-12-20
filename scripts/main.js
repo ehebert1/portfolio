@@ -54,10 +54,10 @@ const data = {
         "projects-encage-orders-introduction": "The second most important part of the game on the programming side is the completion and generation of orders. There were a couple of constraints in the creation of orders that caused us a couple of headaches. For my part, I had to automatically generate the orders and I had to make sure that it was possible to complete all of the orders within one game loop.",
         "projects-encage-orders-validation": "Making sure it is possible to complete every order",
         "projects-encage-orders-validation-content": "When the birds are generated, they are randomly assigned a color. We can then see three colors of birds, blue, red and yellow. Since we don't know the amount of each birds of each colors, we have to grab this information when we create the birds. Every time a bird is added to the game, we add the specific feather to a list of feathers in the game state. Once we have gotten every single feather, we generate the commands based off of this list.",
-        "projects-encage-seeds": "",
-        "projects-encage-seeds-content": "",
-        "projects-encage-seeds-changes": "",
-        "projects-encage-seeds-changes-content": "",
+        "projects-encage-seeds": "New mechanic: Seeds",
+        "projects-encage-seeds-content": "For the next part of the game, we wanted to introduce a new mechanic in the game to add a new level of complexity into it. We have decided to add a bait mechanic in forms of seeds with the goal to attract the birds into one area in order to capture them. This also allowed our level designer to place birds in high places and make them inaccessible to the players unless they use our bait mechanic.",
+        "projects-encage-seeds-changes": "Required Changes",
+        "projects-encage-seeds-changes-content": "To make this mechanic work, we needed to add features to both our player and the birds. First, we needed to add the ability for the player to place the seeds. Next, for the birds, we needed to add a lot more functionalities. First, we need to make sure the birds could detect the seeds. This part was pretty simple since we could use a Environment Query System (EQS) query to find the bait around the bird. Afterwards, after detecting the seeds, the bird needs to go to the seed. This was pretty simple since we already made our custom movement for the bird, so we just need to specify the position to the task and it will fly to that position. For the last part, we needed to change the detection system so the birds would be less reactive to the player when it is eating. We have decided the birds would be 50% less reactive when it is eating.",
         "projects-home-content": "I invite you to visit my <a href=\"projects.html\">projects</a> page. This page has everything regarding my video game projects."
     },
     "fr": {
