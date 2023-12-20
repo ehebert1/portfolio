@@ -54,6 +54,10 @@ const data = {
         "projects-encage-orders-introduction": "The second most important part of the game on the programming side is the completion and generation of orders. There were a couple of constraints in the creation of orders that caused us a couple of headaches. For my part, I had to automatically generate the orders and I had to make sure that it was possible to complete all of the orders within one game loop.",
         "projects-encage-orders-validation": "Making sure it is possible to complete every order",
         "projects-encage-orders-validation-content": "When the birds are generated, they are randomly assigned a color. We can then see three colors of birds, blue, red and yellow. Since we don't know the amount of each birds of each colors, we have to grab this information when we create the birds. Every time a bird is added to the game, we add the specific feather to a list of feathers in the game state. Once we have gotten every single feather, we generate the commands based off of this list.",
+        "projects-encage-seeds": "",
+        "projects-encage-seeds-content": "",
+        "projects-encage-seeds-changes": "",
+        "projects-encage-seeds-changes-content": "",
         "projects-home-content": "I invite you to visit my <a href=\"projects.html\">projects</a> page. This page has everything regarding my video game projects."
     },
     "fr": {
@@ -111,6 +115,10 @@ const data = {
         "projects-encage-orders-introduction": "La deuxième partie la plus importante du jeux côté programmation est la complétion des commandes. Il y a quelques contraintes dans les commandes qui nous a donné quelques maux de têtes. De ma part, je devais m'occuper de la génération automatique des commandes et de s'assurer que la complétion de l'ensemble des commandes soient possibles.",
         "projects-encage-orders-validation": "Assurer la complétion de l'ensemble des commandes",
         "projects-encage-orders-validation-content": "Lorsque les oiseaux se font générés dans le jeu, ils se font assignés aléatoirement une couleur. On pourra ensuite voir des oiseaux de trois couleurs, bleu, rouge ou jaune. Comme on ne sait pas le nombre de chaque couleur d'oiseau, nous devons obtenir ses informations lors de leur création. À chaque fois qu'un oiseau est ajouté, nous ajoutons cette plume à la liste de plumes dans l'état du jeu. Lorsque nous avons toutes les plumes, nous générons les commandes à partir de cette liste.",
+        "projects-encage-seeds": "Nouvelle mécanique: Graines",
+        "projects-encage-seeds-content": "Pour la continuation du jeu, nou voulions introduire une nouvelle mécanique dans le jeu pour ajouter un nouveau niveau de complexité dans le jeu. Nous avons décidé d'ajouter une mécanique d'appat sous la forme de graines dans le but d'attirer les oiseaux en un point pour pouvoir ensuite les capturer. Ceci a aussi permis à notre designer de niveaux de placer des oiseaux en hauteur et de les rendre inaccessible aux joueurs à moins d'utiliser notre mécanique d'appats.",
+        "projects-encage-seeds-changes": "Changements requis",
+        "projects-encage-seeds-changes-content": "Pour le fonctionnement de cette mécanique, nous devions ajouter des fonctionnalités au joueur et aux oiseaux. Premièrement, nous avons ajouter au joueur la fonctionnalité de placer des graines. Ensuite, pour les oiseaux, il a fallu ajouter plus de fonctionnement. Premièrement, il faut que les oiseaux puissent détecter les graines. Cette partie est assez simple puisse que nous pouvons ajouter une requête <i>Environment query system</i> (EQS) pour trouver les appats à l'entour de l'oiseau. Ensuite, après avoir détecté les graines, il faut qu'il se dirige vers sa position. Ceci est aussi assez simple puisque nous avions déjà créé notre mouvement auparavant, donc il fallait seulement préciser une endroit pour qu'il s'y dirige. Pour la dernière partie, nous devions changer la détection pour que les oiseaux soient moins sensibles envers le joueur lorsqu'ils mangent. Nous avons décidé de mettre la détection à 50% lorsqu'ils mangent.",
         "projects-home-content": "Je vous invite à voir ma page <a href=\"projects.html\">projets</a>. Cette page contient tous mes projets reliés au développement de jeux vidéos."
     }
 }
