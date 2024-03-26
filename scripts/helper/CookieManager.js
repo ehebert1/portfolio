@@ -7,6 +7,6 @@ class CookieManager {
     }
 
     static setCookie(key, value, time = 7 * 24 * 60 * 60) {
-        document.cookie = `${key}=${value};max-age=${7 * 24 * 60 * 60}`
+        document.cookie = `${key}=${value};max-age=${time}`
     }
 }
