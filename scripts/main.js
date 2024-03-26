@@ -31,6 +31,7 @@ const data = {
         "home": "Home",
         "lang": "FR",
         "projects": "Projects",
+        "projects-disclaimer": "Click on the project banner to show the content.",
         "projects-encage-ai": "Artificial Intelligence",
         "projects-encage-ai-introduction": "The biggest challenge of our project was without a doubt the artificial intelligence of the birds. Since the heart of our game stands on capturing and hunting birds for the family company, we had to make sure the bird had the behaviour of a real life bird. This task ended up being more complicated than we first anticipated since we did not have much experience using artificial intelligence with Unreal Engine. I helped my colleagues a lot with different algorithms, such as the destination selection and the movement, but the main aspect I had to work on was the detection of the movement, the decision making of the bird as well as obstacle avoidance.",
         "projects-encage-ai-detection": "Detection",
@@ -92,6 +93,7 @@ const data = {
         "home": "Accueil",
         "lang": "EN",
         "projects": "Projets",
+        "projects-disclaimer": "Cliquez sur la bannière du projet pour afficher le contenu.",
         "projects-encage-ai": "Intelligence artificielle",
         "projects-encage-ai-detection": "Détection",
         "projects-encage-ai-detection-content": "Pour la détection, nous devions changer le comportement de l'oiseau dépendamment du mouvement du joueur. L'oiseau va se baser sur deux sens, soit la vision et le son. Au niveau du son, plus que le personnage bouge rapidement, plus que l'oiseau va réagir. La zone de détection du son est le plus gros cercle montrer dans l'image ci-contre. Selon la force du son, une certaine partie proportionnelle à la force du son est utilisée. Cette proportion est basée sur la vitesse courante du joueur sur la vitesse maximale du joueur. Donc, si le joueur court à 50% de la vitesse maximale, la proportion utilisée du cercle sera de 50%.",
@@ -131,6 +133,8 @@ window.onload = () => {
     }
     lang = CookieManager.getCookie("lang")
     updateStrings()
+
+    document.querySelectorAll("[project-target]").forEach((elm) => {elm.addEventListener("click", showProjectContent)})
 }
 
 function updateStrings() {
@@ -158,4 +162,9 @@ function updateSkillContent(dataStringPrefix) {
     updateContent("#skills-header", `about-me-${dataStringPrefix}-title`)
     updateContent("#skills-content", `about-me-${dataStringPrefix}-content`)
     updateStrings()
+}
+
+function showProjectContent(evt) {
+    let value = document.querySelector(evt.target.attributes["project-target"].value).style.display
+    document.querySelector(evt.target.attributes["project-target"].value).style.display = value == "none" ? "block" : "none"
 }

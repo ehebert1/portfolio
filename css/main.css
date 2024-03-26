@@ -203,3 +203,8 @@ img.project-image {
     margin-top: 8px;
     margin-bottom: 1px;
 }
+
+.project-content {
+    display: none;
+    transition: ease-in-out 0.5s;
+}
