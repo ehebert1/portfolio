@@ -208,3 +208,7 @@ img.project-image {
     display: none;
     transition: ease-in-out 0.5s;
 }
+
+[project-target]:hover {
+    cursor: pointer;
+}
