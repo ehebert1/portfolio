@@ -35,6 +35,10 @@ const data = {
         "projects-bambooza-global-class": "",
         "projects-bambooza-global-class-content": "",
         "projects-bambooza-introduction": "<i>Bambooza</i> is an online video game platform in collaboration with <a href=\"https://www.pandaslsj.org/\" target=\"_blank\">Panda Saguenay Lac Saint-Jean</a> and <a href=\"https://www.eckinox.ca/\" target=\"_blank\">Eckinox</a>.",
+        "projects-bambooza-cauldron": "",
+        "projects-bambooza-cauldron-content": "",
+        "projects-bambooza-cauldron-recipes": "",
+        "projects-bambooza-cauldron-recipes-content": "",
         "projects-bambooza-labyrinth": "",
         "projects-bambooza-labyrinth-content": "",
         "projects-bambooza-labyrinth-integration": "",
@@ -109,6 +113,10 @@ const data = {
         "lang": "EN",
         "projects": "Projets",
         "projects-bambooza-article": "<a href=\"https://ici.radio-canada.ca/nouvelle/2021611/deficit-attention-jeu-interactif\" target=\"_blank\" class=\"card\"><div><strong>Article de Radio-Canada du lancement de la plateforme <i>Bambooza</i></strong></div></a>",
+        "projects-bambooza-cauldron": "Chaudron",
+        "projects-bambooza-cauldron-content": "Le deuxième jeu que j'ai fait est le chaudron. Ce jeu était beaucoup plus difficile que le labyrinthe. Le jeu avait pour but d'améliorer l'organisation du joueur. Ce jeu avait beaucoup de composante, soit les ingrédients, les recettes et les bols. La partie la plus difficile de jeu était les bols. ",
+        "projects-bambooza-cauldron-recipes": "Recettes",
+        "projects-bambooza-cauldron-recipes-content": "",
         "projects-bambooza-global-class": "Classe globale et versatile",
         "projects-bambooza-global-class-content": "Pour ce projet, nous avons décidé de faire une classe globale qui englobe la classe <i>Sprite</i> de <i>Phaser</i>. La raison que nous avons décidé d'ajouter une classe globale au projet est pour simplifier l'initialisation de nos objets, puisque la création d'objets <i>Phaser</i> peut devenir assez lourd. Cette classe permet l'initialisation des interactions de l'objet, les collisions de l'objet, création de l'image, ajout de text sur l'image et plus encore.",
         "projects-bambooza-introduction": "<i>Bambooza</i> est une plateforme de jeu en ligne en collaboration avec <a href=\"https://www.pandaslsj.org/\" target=\"_blank\">Panda Saguenay Lac Saint-Jean</a>, <a href=\"https://www.eckinox.ca/\" target=\"_blank\">Eckinox</a> et <a href=\"https://totemastudio.com/\" target=\"_blank\">Totema Studio</a>. Cette plateforme est composé de sept jeux différents dans le but d'aider les personnes atteints de TDAH (Trouble du Déficit de l’Attention avec/sans Hyperactivité) dans le milieu professionnel.",
@@ -117,7 +125,7 @@ const data = {
         "projects-bambooza-labyrinth-integration": "Intégration des questions",
         "projects-bambooza-labyrinth-integration-content": "Pour l'intégration des questions, nous avions pensé initalement faire un fichier JSON qui contient les questions. Les questions seraient composés de quelques attributs, soit le texte de la question, la couleur du texte, ainsi que les réponses possibles. Les réponses auraient aussi quelques informations, notamment le texte ainsi que si c'est la bonne réponse. Ce système fonctionnait bien, mais il ne permettait pas d'ajouter des questions/réponses dynamiquement. Nous avons opter pour changer le système, en gardant les attributs, mais en gardant les questions et réponses dans une base de données que les clients pouvaient accéder pour ajouter/supprimer/modifier des questions à l'aide d'une interface web. Nous devions donc changer l'implémentation pour utiliser l'API développé par <i>Eckinox</i> pour récupérer les questions et réponses.",
         "projects-bambooza-labyrinth-progress": "Progrès dans le labyrinthe",
-        "projects-bambooza-labyrinth-progress-content": "Un des aspects visuels qui était important pour le jeu est de voir le progrès du joueur dans le labyrinthe lorsqu'il complète les questions. ",
+        "projects-bambooza-labyrinth-progress-content": "Un des aspects visuels qui était important pour le jeu est de voir le progrès du joueur dans le labyrinthe lorsqu'il complète les questions. Pour ce faire, on voulait vraiment que la barre de progrès complète le labyrinthe au lieu que ce soit une barre de progrès normale. Pour ce faire, nous avons établit des points dans le labyrinthe qui permet de situer les intersections du labyrinthe. Ensuite, nous avons créer des objets qui nécessite deux de ces points pour faire une ligne et nous gardons la longueur totale pour la barre. Ensuite, avec le pourcentage de questions répondues, nous remplissons la barre de progrès. Nous avons aussi du adapter le visuel pour les différentes résolutions d'écran.",
         "projects-bambooza-link": "<a href=\"https://jeux.bambooza.ca\" target=\"_blank\" class=\"card\"><div><strong>Lien vers la plateforme</strong></div></a>",
         "projects-bambooza-my-role": "Mon rôle",
         "projects-bambooza-my-role-content": "Pour ce projet, nous avons collaboré avec les équipes d'Eckinox et de Totema Studio. L'équipe de Totema a fait tout le game design et l'équipe d'Eckinox ont fait tous les systèmes web, dont l'API et toute la sauvegarde d'information et de session. Tout ce que je devais faire, avec deux autres collègues étudiants, était de programmer les jeux. Cependant, pour pouvoir interagir avec les systèmes d'Eckinox, nous avons du apprendre de nouvelles technologies pour pouvoir compléter le projet. Ces technolgies sont <i>Node Packet Manager</i>, <i>Typescript</i>, <i>Vue 3.0</i> et <i>Phaser</i>.<br><br>Pour le projet, j'ai fait une classe globale et versatile pour les éléments interactifs des jeux, ainsi que deux jeux, le <i>Labyrinthe</i> et le <i>Chaudron</i>.",
@@ -197,4 +205,8 @@ function updateSkillContent(dataStringPrefix) {
 function showProjectContent(evt) {
     let value = document.querySelector(evt.target.attributes["project-target"].value).style.display
     document.querySelector(evt.target.attributes["project-target"].value).style.display = value != "block" ? "block" : "none"
+    let body = document.querySelector("body")
+    body.style.background = `url('../images/${evt.target.attributes["project-background"].value}')`
+    body.style.backgroundRepeat = 'no-repeat'
+    body.style.backgroundAttachment = 'fixed'
 }
