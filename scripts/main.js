@@ -218,7 +218,7 @@ function showProjectContent(evt) {
     let value = document.querySelector(evt.target.attributes["project-target"].value).style.display
     document.querySelector(evt.target.attributes["project-target"].value).style.display = value != "block" ? "block" : "none"
     let body = document.querySelector("body")
-    body.style.background = `url('../images/${evt.target.attributes["project-background"].value}')`
+    body.style.background = `url('images/${evt.target.attributes["project-background"].value}')`
     body.style.backgroundRepeat = 'no-repeat'
     body.style.backgroundAttachment = 'fixed'
 }
