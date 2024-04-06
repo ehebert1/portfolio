@@ -67,7 +67,7 @@ body p, body li {
 }
 #content #content-body {
     width: 70%;
-    background-color: white;
+    background-color: #fffd;
     padding: 20px;
 }
 h3.no-space {
@@ -108,6 +108,33 @@ img.project-image {
 }
 .detection-image {
     width: 60%;
+    border: 1px solid black;
+}
+.labyrinth-integration-text {
+    width: 70%;
+    margin: 0;
+    margin-right: 5px;
+}
+.labyrinth-integration-image {
+    width: 30%;
+    border: 1px solid black;
+}
+.labyrinth-progress-text {
+    width: 70%;
+}
+.labyrinth-progress-image {
+    width: 30%;
+    border: 1px solid black;
+    margin: 0;
+    margin-right: 5px;
+}
+.cauldron-recipe-text {
+    width: 50%;
+    margin: 0;
+    margin-right: 5px;
+}
+.cauldron-recipe-image {
+    width: 50%;
     border: 1px solid black;
 }
 .order-validation {
@@ -171,4 +198,44 @@ img.project-image {
 }
 .icon img{
     width: 20px;
+}
+
+.card {
+    text-decoration: none;
+    color: black;
+}
+
+.card div:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 3px 3px #bbb;
+}
+
+.card div {
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    transition: ease-in-out 0.3s;
+    margin-bottom: 25px;
+}
+
+.card h2 {
+    margin-top: 0px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.card p {
+    margin-top: 8px;
+    margin-bottom: 1px;
+}
+
+.project-content {
+    display: none;
+    transition: ease-in-out 0.5s;
+}
+
+[project-target]:hover {
+    cursor: pointer;
 }
