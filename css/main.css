@@ -110,6 +110,33 @@ img.project-image {
     width: 60%;
     border: 1px solid black;
 }
+.labyrinth-integration-text {
+    width: 70%;
+    margin: 0;
+    margin-right: 5px;
+}
+.labyrinth-integration-image {
+    width: 30%;
+    border: 1px solid black;
+}
+.labyrinth-progress-text {
+    width: 70%;
+}
+.labyrinth-progress-image {
+    width: 30%;
+    border: 1px solid black;
+    margin: 0;
+    margin-right: 5px;
+}
+.cauldron-recipe-text {
+    width: 50%;
+    margin: 0;
+    margin-right: 5px;
+}
+.cauldron-recipe-image {
+    width: 50%;
+    border: 1px solid black;
+}
 .order-validation {
     width: 70%;
     margin: 0;
