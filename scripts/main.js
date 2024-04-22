@@ -84,6 +84,7 @@ const data = {
         "projects-encage-seeds-changes": "Required Changes",
         "projects-encage-seeds-changes-content": "To make this mechanic work, we needed to add features to both our player and the birds. First, we needed to add the ability for the player to place the seeds. Next, for the birds, we needed to add a lot more functionalities. First, we need to make sure the birds could detect the seeds. This part was pretty simple since we could use a Environment Query System (EQS) query to find the bait around the bird. Afterwards, after detecting the seeds, the bird needs to go to the seed. This was pretty simple since we already made our custom movement for the bird, so we just need to specify the position to the task and it will fly to that position. For the last part, we needed to change the detection system so the birds would be less reactive to the player when it is eating. We have decided the birds would be 50% less reactive when it is eating.",
         "projects-genetic-warfare-link": "<a href=\"https://davidnina1.itch.io/genetic-warfare\" target=\"_blank\" class=\"card\"><div><strong>Try the game here!</strong></div></a>",
+        "projects-genetic-warfare-intro": "",
         "projects-home-content": "I invite you to visit my projects page. This page has everything regarding my video game projects."
     },
     "fr": {
@@ -171,6 +172,7 @@ const data = {
         "projects-encage-seeds-changes": "Changements requis",
         "projects-encage-seeds-changes-content": "Pour le fonctionnement de cette mécanique, nous devions ajouter des fonctionnalités au joueur et aux oiseaux. Premièrement, nous avons ajouter au joueur la fonctionnalité de placer des graines. Ensuite, pour les oiseaux, il a fallu ajouter plus de fonctionnement. Premièrement, il faut que les oiseaux puissent détecter les graines. Cette partie est assez simple puisse que nous pouvons ajouter une requête <i>Environment query system</i> (EQS) pour trouver les appats à l'entour de l'oiseau. Ensuite, après avoir détecté les graines, il faut qu'il se dirige vers sa position. Ceci est aussi assez simple puisque nous avions déjà créé notre mouvement auparavant, donc il fallait seulement préciser une endroit pour qu'il s'y dirige. Pour la dernière partie, nous devions changer la détection pour que les oiseaux soient moins sensibles envers le joueur lorsqu'ils mangent. Nous avons décidé de mettre la détection à 50% lorsqu'ils mangent.",
         "projects-genetic-warfare-link": "<a href=\"https://davidnina1.itch.io/genetic-warfare\" target=\"_blank\" class=\"card\"><div><strong>Essayez le jeu ici!</strong></div></a>",
+        "projects-genetic-warfare-intro": "<i>Genetic Warfare</i> est un jeu de combat un contre un local à la manette que j'ai fait en équipe lors de la <i>Wonderjam 2024</i>. Pour cette jam, il y avait le thème commun de la génétique et pour notre équipe, nous devions choisir deux de trois choix, soit <i>versus</i> et <i>Ton allié est aussi ton ennemi</i>.",
         "projects-home-content": "Je vous invite à voir ma page projets. Cette page contient tous mes projets reliés au développement de jeux vidéos."
     }
 }
