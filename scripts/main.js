@@ -200,13 +200,19 @@ const data = {
 let lang = "fr"
 
 window.onload = () => {
+    if ((urlLang = UrlParamManager.getUrlParam("lang")) != undefined) {
+        if (urlLang.toLowerCase() == "fr" || urlLang.toLowerCase() == "en") CookieManager.setCookie("lang", urlLang.toLowerCase())
+    }
     if (CookieManager.getCookie("lang") === undefined) {
         CookieManager.setCookie("lang", "fr")
     }
     lang = CookieManager.getCookie("lang")
     updateStrings()
 
-    document.querySelectorAll("[project-target]").forEach((elm) => {elm.addEventListener("click", showProjectContent)})
+    
+
+    document.querySelectorAll("[project-target]")
+        .forEach((elm) => {elm.addEventListener("click", showProjectContent)})
 }
 
 function updateStrings() {
