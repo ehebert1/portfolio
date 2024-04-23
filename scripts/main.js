@@ -31,6 +31,7 @@ const data = {
         "home": "Home",
         "lang": "FR",
         "projects": "Projects",
+        //////////////////////////////////////////////////////////////////////
         "projects-bambooza-article": "<a href=\"https://ici.radio-canada.ca/nouvelle/2021611/deficit-attention-jeu-interactif\" target=\"_blank\" class=\"card\"><div><strong>CBC article of the launch of the <i>Bambooza</i> platform</strong></div></a>",
         "projects-bambooza-global-class": "Global and Versatile Class",
         "projects-bambooza-global-class-content": "For this project, we have decided to make a global class that wraps the Sprite class from Phaser. The reason we have decided to add a global class for this project is to simplify the initialisation of our GameObjects, since the creation of Phaser GameObjects can become quite heavy. This class allows easier creation of interactions of GameObjects, collisions between GameObjects, sprite creation/management, adding texts on images and a whole lot more.",
@@ -54,7 +55,9 @@ const data = {
         "projects-bambooza-labyrinth-progress-content": "One of the visual effects that was very important for this game was to see the progress of the player in the labyrinth when they answer a question properly. To make this happen, we really wanted to make the progress bar go through the labyrinth rather than have a regular progress bar. To implement this feature, we have established locations in the labyrinth allowing us to find the intersections in the labyrinth. Then, we have created an object that needs those two points to make a line and when we generate them, we keep the total length of the bar. Afterwards, with the percentage of answered questions, we fill out the progress bar. We also had to adapt the visual to the different screen resolutions.",
         "projects-bambooza-my-role": "My role",
         "projects-bambooza-my-role-content": "For this project, we have collaborated with the teams of Eckinox and Totema Studio. The team of Totema Studio did all of the game design and the team at Eckinox made all of the web systems, including the API, the save of all the information and session management. All I needed to do, along with two other students, was to program the games for the platform. However, to be able to interact with the systems made by Eckinox, we needed to learn new technologies to complete this project. Those technologies where Node Packet Manager, Typescript, Vue 3.0 and Phaser.<br><br>For this project, I needed to make a global and versatile class for the interactible elements fo the games as well as two games, the Labyrinth of Inhibition and the Cauldron of Organisation.",
+        //////////////////////////////////////////////////////////////////////
         "projects-disclaimer": "Click on the project banner to show the content.",
+        //////////////////////////////////////////////////////////////////////
         "projects-encage-ai": "Artificial Intelligence",
         "projects-encage-ai-introduction": "The biggest challenge of our project was without a doubt the artificial intelligence of the birds. Since the heart of our game stands on capturing and hunting birds for the family company, we had to make sure the bird had the behaviour of a real life bird. This task ended up being more complicated than we first anticipated since we did not have much experience using artificial intelligence with Unreal Engine. I helped my colleagues a lot with different algorithms, such as the destination selection and the movement, but the main aspect I had to work on was the detection of the movement, the decision making of the bird as well as obstacle avoidance.",
         "projects-encage-ai-detection": "Detection",
@@ -84,7 +87,14 @@ const data = {
         "projects-encage-seeds-changes": "Required Changes",
         "projects-encage-seeds-changes-content": "To make this mechanic work, we needed to add features to both our player and the birds. First, we needed to add the ability for the player to place the seeds. Next, for the birds, we needed to add a lot more functionalities. First, we need to make sure the birds could detect the seeds. This part was pretty simple since we could use a Environment Query System (EQS) query to find the bait around the bird. Afterwards, after detecting the seeds, the bird needs to go to the seed. This was pretty simple since we already made our custom movement for the bird, so we just need to specify the position to the task and it will fly to that position. For the last part, we needed to change the detection system so the birds would be less reactive to the player when it is eating. We have decided the birds would be 50% less reactive when it is eating.",
         "projects-genetic-warfare-link": "<a href=\"https://davidnina1.itch.io/genetic-warfare\" target=\"_blank\" class=\"card\"><div><strong>Try the game here!</strong></div></a>",
+        //////////////////////////////////////////////////////////////////////
         "projects-genetic-warfare-intro": "",
+        //////////////////////////////////////////////////////////////////////
+        "projects-hamstorm-description": "",
+        "projects-hamstorm-description-content": "",
+        "projects-hamstorm-myrole": "",
+        "projects-hamstorm-myrole-content": "",
+        //////////////////////////////////////////////////////////////////////
         "projects-home-content": "I invite you to visit my projects page. This page has everything regarding my video game projects."
     },
     "fr": {
@@ -119,6 +129,7 @@ const data = {
         "home": "Accueil",
         "lang": "EN",
         "projects": "Projets",
+        //////////////////////////////////////////////////////////////////////
         "projects-bambooza-article": "<a href=\"https://ici.radio-canada.ca/nouvelle/2021611/deficit-attention-jeu-interactif\" target=\"_blank\" class=\"card\"><div><strong>Article de Radio-Canada du lancement de la plateforme <i>Bambooza</i></strong></div></a>",
         "projects-bambooza-cauldron": "Chaudron",
         "projects-bambooza-cauldron-content": "Le deuxième jeu que j'ai fait est le chaudron. Ce jeu était beaucoup plus difficile que le labyrinthe. Le jeu avait pour but d'améliorer l'organisation du joueur. Ce jeu avait beaucoup de composante, soit les ingrédients, les recettes et les bols. La partie la plus difficile de jeu était les bols. ",
@@ -142,7 +153,9 @@ const data = {
         "projects-bambooza-link": "<a href=\"https://jeux.bambooza.ca\" target=\"_blank\" class=\"card\"><div><strong>Lien vers la plateforme</strong></div></a>",
         "projects-bambooza-my-role": "Mon rôle",
         "projects-bambooza-my-role-content": "Pour ce projet, nous avons collaboré avec les équipes d'Eckinox et de Totema Studio. L'équipe de Totema a fait tout le game design et l'équipe d'Eckinox ont fait tous les systèmes web, dont l'API et toute la sauvegarde d'information et de session. Tout ce que je devais faire, avec deux autres collègues étudiants, était de programmer les jeux. Cependant, pour pouvoir interagir avec les systèmes d'Eckinox, nous avons du apprendre de nouvelles technologies pour pouvoir compléter le projet. Ces technologies sont <i>Node Packet Manager</i>, <i>Typescript</i>, <i>Vue 3.0</i> et <i>Phaser</i>.<br><br>Pour le projet, j'ai fait une classe globale et versatile pour les éléments interactifs des jeux, ainsi que deux jeux, le <i>Labyrinthe de l'inhibition</i> et le <i>Chaudron de l'organisation</i>.",
+        ////////////////////////////////////////////////////////
         "projects-disclaimer": "Cliquez sur la bannière du projet pour afficher le contenu.",
+        ////////////////////////////////////////////////////////
         "projects-encage-ai": "Intelligence artificielle",
         "projects-encage-ai-detection": "Détection",
         "projects-encage-ai-detection-content": "Pour la détection, nous devions changer le comportement de l'oiseau dépendamment du mouvement du joueur. L'oiseau va se baser sur deux sens, soit la vision et le son. Au niveau du son, plus que le personnage bouge rapidement, plus que l'oiseau va réagir. La zone de détection du son est le plus gros cercle montrer dans l'image ci-contre. Selon la force du son, une certaine partie proportionnelle à la force du son est utilisée. Cette proportion est basée sur la vitesse courante du joueur sur la vitesse maximale du joueur. Donc, si le joueur court à 50% de la vitesse maximale, la proportion utilisée du cercle sera de 50%.",
@@ -172,7 +185,14 @@ const data = {
         "projects-encage-seeds-changes": "Changements requis",
         "projects-encage-seeds-changes-content": "Pour le fonctionnement de cette mécanique, nous devions ajouter des fonctionnalités au joueur et aux oiseaux. Premièrement, nous avons ajouter au joueur la fonctionnalité de placer des graines. Ensuite, pour les oiseaux, il a fallu ajouter plus de fonctionnement. Premièrement, il faut que les oiseaux puissent détecter les graines. Cette partie est assez simple puisse que nous pouvons ajouter une requête <i>Environment query system</i> (EQS) pour trouver les appats à l'entour de l'oiseau. Ensuite, après avoir détecté les graines, il faut qu'il se dirige vers sa position. Ceci est aussi assez simple puisque nous avions déjà créé notre mouvement auparavant, donc il fallait seulement préciser une endroit pour qu'il s'y dirige. Pour la dernière partie, nous devions changer la détection pour que les oiseaux soient moins sensibles envers le joueur lorsqu'ils mangent. Nous avons décidé de mettre la détection à 50% lorsqu'ils mangent.",
         "projects-genetic-warfare-link": "<a href=\"https://davidnina1.itch.io/genetic-warfare\" target=\"_blank\" class=\"card\"><div><strong>Essayez le jeu ici!</strong></div></a>",
+        /////////////////////////////////////////
         "projects-genetic-warfare-intro": "<i>Genetic Warfare</i> est un jeu de combat un contre un local à la manette que j'ai fait en équipe lors de la <i>Wonderjam 2024</i>. Pour cette jam, il y avait le thème commun de la génétique et pour notre équipe, nous devions choisir deux de trois choix, soit <i>versus</i> et <i>Ton allié est aussi ton ennemi</i>.",
+        /////////////////////////////////////////
+        "projects-hamstorm-description": "Description du jeu",
+        "projects-hamstorm-description-content": "Les mines de la ville d’Hamsteria étaient paisibles et prospères, jusqu’au jour où les horribles rats du clan <i>Chedd’Or</i> sont passés à l’attaque! Désormais, le vaillant Hamstörm doit retourner vers la ville pour avertir ses semblables de l’arrivée de ces vilains rongeurs dans leurs tunnels. <br><br>Parcourez un jeu de puzzle amusant et coloré, dans lequel vous aiderez Hamstörm à se frayer un chemin dans les différentes galeries de la mine, maintenant infestées de terribles rats! Que ce soit en détruisant des cristaux, en brisant le sol sous leurs pieds ou en leur tendant des pièges, tous les moyens sont bons pour arriver à temps à la sortie de la mine!",
+        "projects-hamstorm-myrole": "Mon rôle",
+        "projects-hamstorm-myrole-content": "",
+        /////////////////////////////////////////
         "projects-home-content": "Je vous invite à voir ma page projets. Cette page contient tous mes projets reliés au développement de jeux vidéos."
     }
 }
