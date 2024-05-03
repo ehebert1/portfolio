@@ -200,17 +200,17 @@ img.project-image {
     width: 20px;
 }
 
-.card {
+.card-url {
     text-decoration: none;
     color: black;
 }
 
-.card div:hover {
+.card-url div:hover {
     transform: scale(1.01);
     box-shadow: 0px 0px 3px 3px #bbb;
 }
 
-.card div {
+.card-url div {
     border: 1px solid #999;
     border-radius: 10px;
     padding: 15px;
@@ -219,14 +219,14 @@ img.project-image {
     margin-bottom: 25px;
 }
 
-.card h2 {
+.card-url h2 {
     margin-top: 0px;
     margin-bottom: 1px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
 }
 
-.card p {
+.card-url p {
     margin-top: 8px;
     margin-bottom: 1px;
 }
