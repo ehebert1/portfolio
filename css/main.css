@@ -57,16 +57,7 @@ body p, body li {
     padding: 20px;
     color: white;
 }
-#content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-#content #content-body {
-    width: 70%;
+.content #content-body {
     background-color: #fffd;
     padding: 20px;
 }
@@ -163,7 +154,6 @@ img.project-image {
     border-bottom: 1px solid #ccc6;
 }
 .main-background {
-    width: 70%;
     padding: 20px;
     height: 400px;
     background-image: url('../images/main-background.jpg');
