@@ -250,7 +250,6 @@ const data = {
 }
 
 let lang = "fr"
-
 window.onload = () => {
     if ((urlLang = UrlParamManager.getUrlParam("lang")) != undefined) {
         if (urlLang.toLowerCase() == "fr" || urlLang.toLowerCase() == "en") CookieManager.setCookie("lang", urlLang.toLowerCase())
@@ -261,7 +260,7 @@ window.onload = () => {
     lang = CookieManager.getCookie("lang")
     updateStrings()
 
-    
+    document.querySelector("#loading").style.display = "none"
 
     document.querySelectorAll("[project-target]")
         .forEach((elm) => {elm.addEventListener("click", showProjectContent)})
