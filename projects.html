@@ -22,116 +22,200 @@
             <li class="nav-item nav-item-right nav-lang" data-string="lang" onclick="langSwitch()"></li>
         </ul>
     </div>
-    <div id="content">
+    <div class="container content">
         <div id="content-body">
             <h2 data-string="projects" class="page-title"></h2>
             <p data-string="projects-disclaimer"></p>
             <img class="project-image" src="images/hamstorm.png" project-target="#hamstorm-content" project-background="hamstorm-bg.png">
-            <div id="hamstorm-content" class="project-content">
-                <p data-string="projects-hamstorm-link"></p>
-                <h2 data-string="projects-hamstorm-description"></h2>
-                <p data-string="projects-hamstorm-description-content"></p>
-                <h2 data-string="projects-hamstorm-myrole"></h2>
-                <p data-string="projects-hamstorm-myrole-content"></p>
-                <h3 data-string="projects-hamstorm-movement"></h3>
-                <p data-string="projects-hamstorm-movement-content"></p>
-                <h3 data-string="projects-hamstorm-movement-revert"></h3>
-                <p data-string="projects-hamstorm-movement-revert-content"></p>
-                <h3 data-string="projects-hamstorm-movement-character"></h3>
-                <p data-string="projects-hamstorm-movement-character-content"></p>
-                <h3 data-string="projects-hamstorm-movement-character-hamstorm"></h3>
-                <p data-string="projects-hamstorm-movement-character-hamstorm-content"></p>
-                <h3 data-string="projects-hamstorm-movement-character-gouda"></h3>
-                <p data-string="projects-hamstorm-movement-character-gouda-content"></p>
-                <h3 data-string="projects-hamstorm-movement-character-slinky"></h3>
-                <p data-string="projects-hamstorm-movement-character-slinky-content"></p>
-                <h3 data-string="projects-hamstorm-enemy-behavior"></h3>
-                <p data-string="projects-hamstorm-enemy-behavior-content"></p>
-                <h3 data-string="projects-hamstorm-camera-management"></h3>
-                <p data-string="projects-hamstorm-camera-management-content"></p>
-                <h3 data-string="projects-hamstorm-revert"></h3>
-                <p data-string="projects-hamstorm-revert-content"></p>
-                <h3 data-string="projects-hamstorm-revert-bugs"></h3>
-                <p data-string="projects-hamstorm-revert-bugs-content"></p>
-                <h3 data-string="projects-hamstorm-challenges"></h3>
-                <p data-string="projects-hamstorm-challenges-content"></p>
-                <h3 data-string="projects-hamstorm-future"></h3>
-                <p data-string="projects-hamstorm-future-content"></p>
-                <h2 data-string="projects-encage-members"></h2>
-                <ul>
-                    <li>Théophile Gagnard - Artiste sonore // Sound Artist</li>
-                    <li>Jean-Sébastien Galipeau - Désigneur de jeu et de niveaux // Game/Level Designer</li>
-                    <li>Mathieu Germain - Artiste d'armature // Rigging Artist</li>
-                    <li>Éric Hébert - Programmeur Gameplay/IA // AI/Gameplay Programmer</li>
-                    <li>Rose Laurin - Animatrice // Animator</li>
-                    <li>Vincent Lavoie - Artiste de personnages // Character Artist</li>
-                    <li>Maxime Leduc - Artiste technique/FX // FX/Technical Artist</li>
-                    <li>Maxime Painchaud - Programmeur Gameplay/IA // AI/Gameplay Programmer</li>
-                    <li>Shanna Sportelli - Artiste d'éclairage // Lighting Artist</li>
-                </ul>
+            <div id="hamstorm-content" class="row project-content">
+                <div class="col-md-12">
+                    <p data-string="projects-hamstorm-link"></p>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2 data-string="projects-hamstorm-description"></h2>
+                        <p data-string="projects-hamstorm-description-content"></p></div>
+                    <div class="col-md-4" id="hamstorm-trailer">
+                        <iframe width="100%" height="100%"
+                        src="https://www.youtube.com/embed/bzCmV2UCujg">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <h2 data-string="projects-hamstorm-myrole"></h2>
+                    <p data-string="projects-hamstorm-myrole-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-hamstorm-movement"></h3>
+                    <p data-string="projects-hamstorm-movement-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-hamstorm-movement-revert"></h3>
+                    <p data-string="projects-hamstorm-movement-revert-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-hamstorm-movement-character"></h3>
+                    <p data-string="projects-hamstorm-movement-character-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-hamstorm-movement-character-hamstorm"></h3>
+                    <p data-string="projects-hamstorm-movement-character-hamstorm-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-hamstorm-movement-character-gouda"></h3>
+                    <p data-string="projects-hamstorm-movement-character-gouda-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-hamstorm-movement-character-slinky"></h3>
+                    <p data-string="projects-hamstorm-movement-character-slinky-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-hamstorm-enemy-behavior"></h3>
+                    <p data-string="projects-hamstorm-enemy-behavior-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-hamstorm-camera-management"></h3>
+                    <p data-string="projects-hamstorm-camera-management-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-hamstorm-revert"></h3>
+                    <p data-string="projects-hamstorm-revert-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-hamstorm-revert-bugs"></h3>
+                    <p data-string="projects-hamstorm-revert-bugs-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-hamstorm-challenges"></h3>
+                    <p data-string="projects-hamstorm-challenges-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-hamstorm-future"></h3>
+                    <p data-string="projects-hamstorm-future-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h2 data-string="projects-encage-members"></h2>
+                    <ul>
+                        <li>Théophile Gagnard - Artiste sonore // Sound Artist</li>
+                        <li>Jean-Sébastien Galipeau - Désigneur de jeu et de niveaux // Game/Level Designer</li>
+                        <li>Mathieu Germain - Artiste d'armature // Rigging Artist</li>
+                        <li>Éric Hébert - Programmeur Gameplay/IA // AI/Gameplay Programmer</li>
+                        <li>Rose Laurin - Animatrice // Animator</li>
+                        <li>Vincent Lavoie - Artiste de personnages // Character Artist</li>
+                        <li>Maxime Leduc - Artiste technique/FX // FX/Technical Artist</li>
+                        <li>Maxime Painchaud - Programmeur Gameplay/IA // AI/Gameplay Programmer</li>
+                        <li>Shanna Sportelli - Artiste d'éclairage // Lighting Artist</li>
+                    </ul>
+                </div>
             </div>
             <img class="project-image" src="images/Banniere_Heritage.png" project-target="#heritage-content" project-background="heritage-bg.jpg">
-            <div id="heritage-content" class="project-content">
-                <p data-string="projects-encage-link"></p>
-                <p data-string="projects-encage-introduction"></p>
-                <h2>Trailer</h2>
-                <video controls width="100%">
-                    <source src="images/Heritage_Trailer.mp4" type="video/mp4">
-                </video>
-                <h2 data-string="projects-encage-my-role"></h2>
-                <p data-string="projects-encage-my-role-content"></p>
-                <h2 data-string="projects-encage-ai"></h2>
-                <p data-string="projects-encage-ai-introduction"></p>
-                <h3 data-string="projects-encage-ai-detection"></h3>
-                <div class="detection-container">
-                    <p data-string="projects-encage-ai-detection-content" class="detection-text"></p>
-                    <img src="images/detection.PNG" class="detection-image">
+            <div id="heritage-content" class="project-content row">
+                <div class="col-md-12">
+                    <p data-string="projects-encage-link"></p>
                 </div>
-                <p data-string="projects-encage-ai-detection-content-next"></p>
-                <h3 data-string="projects-encage-oa"></h3>
-                <p data-string="projects-encage-oa-introduction"></p>
-                <ul>
-                    <li data-string="projects-encage-oa-item1"></li>
-                    <li data-string="projects-encage-oa-item2"></li>
-                </ul>
-                <img src="images/bird-raycast.PNG" class="code-image bird-image">
-                <p data-string="projects-encage-oa-solutions"></p>
-                <h2 data-string="projects-encage-orders"></h2>
-                <p data-string="projects-encage-orders-introduction"></p>
-                <h3 data-string="projects-encage-orders-validation"></h3>
-                <div class="detection-container">
-                    <p data-string="projects-encage-orders-validation-content" class="order-validation"></p>
-                    <img src="images/Capture_4_Heritage.png" class="order-feathers code-image">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 data-string="projects-encage-introduction-title"></h2>
+                        <p data-string="projects-encage-introduction"></p>
+                    </div>
+                    <div class="col-md-8">
+                        <video controls width="100%" onloadstart="this.volume = 0.3">
+                            <source src="images/Heritage_Trailer.mp4" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
-                <h3 data-string="projects-encage-orders-generation"></h3>
-                <p data-string="projects-encage-orders-generation-content"></p>
-                <h2 data-string="projects-encage-seeds"></h2>
-                <p data-string="projects-encage-seeds-content"></p>
-                <h3 data-string="projects-encage-seeds-changes"></h3>
-                <p data-string="projects-encage-seeds-changes-content"></p>
-                <h2 data-string="projects-encage-challenges"></h2>
-                <div class="detection-container">
-                    <div class="challenges-container" class="order-validation">
+                <div class="col-md-12">
+                    <h2 data-string="projects-encage-my-role"></h2>
+                    <p data-string="projects-encage-my-role-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h2 data-string="projects-encage-ai"></h2>
+                    <p data-string="projects-encage-ai-introduction"></p>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 data-string="projects-encage-ai-detection"></h3>
+                    </div>
+                    <div class="col-md-7">
+                        <p data-string="projects-encage-ai-detection-content"></p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/detection.PNG" class="detection-image">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <p data-string="projects-encage-ai-detection-content-next"></p>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-encage-oa"></h3>
+                    <p data-string="projects-encage-oa-introduction"></p>
+                    <ul>
+                        <li data-string="projects-encage-oa-item1"></li>
+                        <li data-string="projects-encage-oa-item2"></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 mb-2">
+                    <img src="images/bird-raycast.PNG" class="code-image bird-image">
+                </div>
+                <div class="col-md-12">
+                    <p data-string="projects-encage-oa-solutions"></p>
+                </div>
+                <div class="col-md-12">
+                    <h2 data-string="projects-encage-orders"></h2>
+                    <p data-string="projects-encage-orders-introduction"></p>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-md-12">
+                        <h3 data-string="projects-encage-orders-validation"></h3>
+                    </div>
+                    <div class="col-md-4">
+                        <p data-string="projects-encage-orders-validation-content"></p>
+                    </div>
+                    <div class="col-md-8">
+                        <img src="images/Capture_4_Heritage.png" class="code-image">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-encage-orders-generation"></h3>
+                    <p data-string="projects-encage-orders-generation-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h2 data-string="projects-encage-seeds"></h2>
+                    <p data-string="projects-encage-seeds-content"></p>
+                </div>
+                <div class="col-md-12">
+                    <h3 data-string="projects-encage-seeds-changes"></h3>
+                    <p data-string="projects-encage-seeds-changes-content"></p>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-md-12">
+                        <h2 data-string="projects-encage-challenges"></h2>
+                    </div>
+                    <div class="col-md-6">
                         <p data-string="projects-encage-challenges-content"></p>
                         <p data-string="projects-encage-challenges-content-next"></p>
                     </div>
-                    <img src="images/Poster_Heritage.png" class="order-feathers">
+                    <div class="col-md-6">
+                        <img src="images/Poster_Heritage.png" class="code-image">
+                    </div>
                 </div>
-                <h2 data-string="projects-encage-members"></h2>
-                <ul>
-                    <li>Olivier Bergua Truong - Artiste d'environnements // Environment artist</li>
-                    <li>Caroline Champagne-Hinojosa - Artiste d'armature // Rigging</li>
-                    <li>Ahmed-Salim Derkaoui - Designer de niveaux/jeux // Game/Level Designer</li>
-                    <li>Naomi Dubreuil - Artiste de concepts // Concept artist</li>
-                    <li>Benjamin Farigoul - Programmeur IA/Gameplay // AI/Gameplay Programmer</li>
-                    <li>Éric Hébert - Programmeur IA/Gameplay // AI/Gameplay Programmer</li>
-                    <li>Sébastien Jacquoudet - Animateur // Animator</li>
-                    <li>Valeria Krumdieck Leon - Artiste de concepts/de personnages/IU // Concept/Character/ UI artist </li>
-                    <li>Maxime Leduc - Artiste technique // Technical artist</li>
-                    <li>Domenica Paulina Moya Villacis - Artiste de personnages // Character artist</li>
-                    <li>Maxime Painchaud - Programmeur IA/Gameplay // AI/Gameplay Programmer</li>
-                    <li>Tammie Waters - Animatrice // Animator</li>
-                </ul>
+                <div class="col-md-12">
+                    <h2 data-string="projects-encage-members"></h2>
+                    <ul>
+                        <li>Olivier Bergua Truong - Artiste d'environnements // Environment artist</li>
+                        <li>Caroline Champagne-Hinojosa - Artiste d'armature // Rigging</li>
+                        <li>Ahmed-Salim Derkaoui - Designer de niveaux/jeux // Game/Level Designer</li>
+                        <li>Naomi Dubreuil - Artiste de concepts // Concept artist</li>
+                        <li>Benjamin Farigoul - Programmeur IA/Gameplay // AI/Gameplay Programmer</li>
+                        <li>Éric Hébert - Programmeur IA/Gameplay // AI/Gameplay Programmer</li>
+                        <li>Sébastien Jacquoudet - Animateur // Animator</li>
+                        <li>Valeria Krumdieck Leon - Artiste de concepts/de personnages/IU // Concept/Character/ UI artist </li>
+                        <li>Maxime Leduc - Artiste technique // Technical artist</li>
+                        <li>Domenica Paulina Moya Villacis - Artiste de personnages // Character artist</li>
+                        <li>Maxime Painchaud - Programmeur IA/Gameplay // AI/Gameplay Programmer</li>
+                        <li>Tammie Waters - Animatrice // Animator</li>
+                    </ul>
+                </div>
             </div>
             <img class="project-image" src="images/bambooza.PNG" project-target="#bambooza-content" project-background="bambooza-bg.png">
             <div id="bambooza-content" class="project-content">

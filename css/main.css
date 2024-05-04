@@ -91,6 +91,7 @@ img.skill-image:hover {
 img.project-image {
     width: 100%;
     box-shadow: 0px 3px 4px 3px #ccc;
+    margin-bottom: 20px;
 }
 .detection-text {
     width: 40%;
@@ -98,7 +99,7 @@ img.project-image {
     margin-right: 5px;
 }
 .detection-image {
-    width: 60%;
+    width: 100%;
     border: 1px solid black;
 }
 .labyrinth-integration-text {
@@ -127,15 +128,6 @@ img.project-image {
 .cauldron-recipe-image {
     width: 50%;
     border: 1px solid black;
-}
-.order-validation {
-    width: 70%;
-    margin: 0;
-    padding-right: 5px;
-}
-.order-feathers {
-    width: 30%;
-    margin: 0;
 }
 .challenges-container {
     display: flex;
@@ -176,6 +168,7 @@ img.project-image {
 }
 .code-image {
     box-shadow: 0px 2px 3px 2px #aaa;
+    width: 100%;
 }
 .bird-image {
     width: 100%;
