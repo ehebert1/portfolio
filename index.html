@@ -7,6 +7,9 @@
     <script src="scripts/helper/CookieManager.js"></script>
     <script src="scripts/helper/UrlParamManager.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="">
@@ -19,25 +22,27 @@
             <li class="nav-item nav-item-right nav-lang" data-string="lang" onclick="langSwitch()"></li>
         </ul>
     </div>
-    <div id="content">
-        <div class="main-background">
-            <h2 data-string="developer" class="main-page-title"></h2>
-        </div>
-        <div id="content-body">
-            <h2 data-string="developer-info"></h2>
-            <p data-string="developer-info-content"></p>
-            <a href="about.html" class="card-url">
-                <div>
-                    <h2 data-string="about-me"></h2>
-                    <p data-string="about-me-home-content"></p>
-                </div>
-            </a>
-            <a href="projects.html" class="card-url">
-                <div>
-                    <h2 data-string="projects"></h2>
-                    <p data-string="projects-home-content"></p>
-                </div>
-            </a>
+    <div class="container content">
+        <div class="row">
+            <div class="main-background">
+                <h2 data-string="developer" class="main-page-title"></h2>
+            </div>
+            <div id="content-body">
+                <h2 data-string="developer-info"></h2>
+                <p data-string="developer-info-content"></p>
+                <a href="about.html" class="card-url">
+                    <div>
+                        <h2 data-string="about-me"></h2>
+                        <p data-string="about-me-home-content"></p>
+                    </div>
+                </a>
+                <a href="projects.html" class="card-url">
+                    <div>
+                        <h2 data-string="projects"></h2>
+                        <p data-string="projects-home-content"></p>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
     <div id="footer">

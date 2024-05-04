@@ -7,6 +7,9 @@
     <script src="scripts/helper/CookieManager.js"></script>
     <script src="scripts/helper/UrlParamManager.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="">
@@ -19,8 +22,8 @@
             <li class="nav-item nav-item-right nav-lang" data-string="lang" onclick="langSwitch()"></li>
         </ul>
     </div>
-    <div id="content">
-        <div id="content-body">
+    <div class="container content">
+        <div id="content-body" class="row">
             <h2 data-string="about-me" class="page-title"></h2>
             <p data-string="about-me-introduction"></p>
             <h2 data-string="about-me-studies"></h2>
@@ -31,13 +34,25 @@
             <p class="no-space" data-string="about-me-cegep-information"></p>
             <p data-string="about-me-cegep-content"></p>
             <h2 data-string="about-me-skills"></h2>
-            <div class="image-container">
-                <img class="skill-image" src="images/c-sharp.png" alt="C# Logo" onclick="updateSkillContent('csharp')">
-                <img class="skill-image" src="images/cpp.png" alt="C++ Logo" onclick="updateSkillContent('cpp')">
-                <img class="skill-image" src="images/javascript.png" alt="JavaScript Logo" onclick="updateSkillContent('js')">
-                <img class="skill-image" src="images/java.png" alt="Java Logo" onclick="updateSkillContent('java')">
-                <img class="skill-image" src="images/sql.png" alt="SQL Logo" onclick="updateSkillContent('sql')">
-                <img class="skill-image" src="images/coldfusion.png" alt="ColdFusion Logo" onclick="updateSkillContent('cf')">
+            <div class="row mb-4">
+                <div class="col-md-2 col-sm-4 mb-2">
+                    <img class="skill-image" src="images/c-sharp.png" alt="C# Logo" onclick="updateSkillContent('csharp')">
+                </div>
+                <div class="col-md-2 col-sm-4 mb-2">
+                    <img class="skill-image" src="images/cpp.png" alt="C++ Logo" onclick="updateSkillContent('cpp')">
+                </div>
+                <div class="col-md-2 col-sm-4 mb-2">
+                    <img class="skill-image" src="images/javascript.png" alt="JavaScript Logo" onclick="updateSkillContent('js')">
+                </div>
+                <div class="col-md-2 col-sm-4 mb-2">
+                    <img class="skill-image" src="images/java.png" alt="Java Logo" onclick="updateSkillContent('java')">
+                </div>
+                <div class="col-md-2 col-sm-4 mb-2">
+                    <img class="skill-image" src="images/sql.png" alt="SQL Logo" onclick="updateSkillContent('sql')">
+                </div>
+                <div class="col-md-2 col-sm-4 mb-2">
+                    <img class="skill-image" src="images/coldfusion.png" alt="ColdFusion Logo" onclick="updateSkillContent('cf')">
+                </div>
             </div>
             <div id="skills-container">
                 <h2 id="skills-header" data-string="empty"></h2>

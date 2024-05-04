@@ -57,18 +57,10 @@ body p, body li {
     padding: 20px;
     color: white;
 }
-#content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-#content #content-body {
-    width: 70%;
+.content #content-body {
     background-color: #fffd;
     padding: 20px;
+    min-height: 100vh;
 }
 h3.no-space {
     margin-bottom: 0;
@@ -83,9 +75,9 @@ p.no-space {
     justify-content: center;
 }
 img.skill-image {
-    width: 200px;
-    height: 200px;
-    margin: 5px;
+    width: 100%;
+    height: 100%;
+    margin: 4px;
     padding: 5px;
     border: 1px solid #aaa;
     border-radius: 15px;
@@ -100,6 +92,7 @@ img.skill-image:hover {
 img.project-image {
     width: 100%;
     box-shadow: 0px 3px 4px 3px #ccc;
+    margin-bottom: 20px;
 }
 .detection-text {
     width: 40%;
@@ -107,7 +100,7 @@ img.project-image {
     margin-right: 5px;
 }
 .detection-image {
-    width: 60%;
+    width: 100%;
     border: 1px solid black;
 }
 .labyrinth-integration-text {
@@ -137,15 +130,6 @@ img.project-image {
     width: 50%;
     border: 1px solid black;
 }
-.order-validation {
-    width: 70%;
-    margin: 0;
-    padding-right: 5px;
-}
-.order-feathers {
-    width: 30%;
-    margin: 0;
-}
 .challenges-container {
     display: flex;
     flex-direction: column;
@@ -163,7 +147,6 @@ img.project-image {
     border-bottom: 1px solid #ccc6;
 }
 .main-background {
-    width: 70%;
     padding: 20px;
     height: 400px;
     background-image: url('../images/main-background.jpg');
@@ -186,6 +169,7 @@ img.project-image {
 }
 .code-image {
     box-shadow: 0px 2px 3px 2px #aaa;
+    width: 100%;
 }
 .bird-image {
     width: 100%;
