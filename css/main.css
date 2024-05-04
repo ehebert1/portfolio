@@ -60,6 +60,7 @@ body p, body li {
 .content #content-body {
     background-color: #fffd;
     padding: 20px;
+    min-height: 100vh;
 }
 h3.no-space {
     margin-bottom: 0;
