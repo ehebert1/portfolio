@@ -292,6 +292,8 @@ function updateSkillContent(dataStringPrefix) {
     updateContent("#skills-header", `about-me-${dataStringPrefix}-title`)
     updateContent("#skills-content", `about-me-${dataStringPrefix}-content`)
     updateStrings()
+    let $skillsHeader = document.querySelector("#skills-header")
+    window.scrollTo($skillsHeader.offsetLeft, $skillsHeader.offsetTop)
 }
 
 function showProjectContent(evt) {
