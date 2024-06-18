@@ -24,6 +24,19 @@ const data = {
         "about-me-university": "Université du Québec à Chicoutimi",
         "about-me-university-content": "I chose video game development at this university since I had already heard about it during my time at CEGEP. Thanks to my studies at this university, I have learned C++, the entire process of video game development, such as conception, communicating with clients, collaborating with artists and making games using multiple game engines, notably Unreal Engine and Unity 3D.",
         "about-me-university-information": "Bachelor's in video game development, 2021-2024",
+        "about-me-work": "Professionnal Experience",
+        "about-me-work-cra": "Information Technology Developer",
+        "about-me-work-cra-content": "My experience at Canada's Revenue Agency was my first job in software development. This job allowed me to obtain my basic professional skills, such as communication with clients and team members, dynamic development, managing personal data as well as code documentation. For this position, I also had to learn a new programming language as well as create new databases.",
+        "about-me-work-cra-information": "Canada's Revenue Agency, January 2020 - August 2021",
+        "about-me-work-eckinox": "Video Game Developer",
+        "about-me-work-eckinox-content": "For this position, we have collaborated with <i>Eckinox</i> and <i>Totema Studio</i> to create the games for the platform. I had to learn a new game engine as well as multiple web technologies for the realisation of the project. Also, I had to collaborate with other developers for the creation of the games and the code structure, as well as integrating the API developped to save the player's statistics. We also used multiple project management tools, such as daily scrums and a ticketing tool, in our case, Jira.",
+        "about-me-work-eckinox-information": "Contract for Eckinox, June 2023 - October 2023",
+        "about-me-work-ta": "Teacher Assistant for the class <i>Advanced development with game engines</i>",
+        "about-me-work-ta-content": "For this course, my job was to offer help and support to students who had bugs in their course work during the laboratory hours. I offered my knowledge of Unity and Unreal Engine to the students as well as my debugging and algorithm design skill. My help was mostly needed during the Unreal Engine labs, since it is more difficult to find information online and because I have a lot of experience with this engine. This position has allowed me to better my skills of reading and understanding the work of others as well as offering solutions efficiently.",
+        "about-me-work-ta-information": "University of Québec at Chicoutimi, January 2024 - May 2024",
+
+        //////////////////////////////////////////////////////////////////////
+
         "developer": "Éric Hébert",
         "developer-info": "Video Game Developer",
         "developer-info-content": "I am Éric Hébert, a student in video game development at Université du Québec à Chicoutimi. I am capable with multiple game engines, notably Unreal Engine, Unity 3D and PhaserJS. I invite you to browse my site.",
@@ -31,7 +44,9 @@ const data = {
         "home": "Home",
         "lang": "FR",
         "projects": "Projects",
+
         //////////////////////////////////////////////////////////////////////
+
         "projects-bambooza-article": "<a href=\"https://ici.radio-canada.ca/nouvelle/2021611/deficit-attention-jeu-interactif\" target=\"_blank\" class=\"card-url\"><div><strong>CBC article of the launch of the <i>Bambooza</i> platform</strong></div></a>",
         "projects-bambooza-global-class": "Global and Versatile Class",
         "projects-bambooza-global-class-content": "For this project, we have decided to make a global class that wraps the Sprite class from Phaser. The reason we have decided to add a global class for this project is to simplify the initialisation of our GameObjects, since the creation of Phaser GameObjects can become quite heavy. This class allows easier creation of interactions of GameObjects, collisions between GameObjects, sprite creation/management, adding texts on images and a whole lot more.",
@@ -55,9 +70,13 @@ const data = {
         "projects-bambooza-labyrinth-progress-content": "One of the visual effects that was very important for this game was to see the progress of the player in the labyrinth when they answer a question properly. To make this happen, we really wanted to make the progress bar go through the labyrinth rather than have a regular progress bar. To implement this feature, we have established locations in the labyrinth allowing us to find the intersections in the labyrinth. Then, we have created an object that needs those two points to make a line and when we generate them, we keep the total length of the bar. Afterwards, with the percentage of answered questions, we fill out the progress bar. We also had to adapt the visual to the different screen resolutions.",
         "projects-bambooza-my-role": "My role",
         "projects-bambooza-my-role-content": "For this project, we have collaborated with the teams of Eckinox and Totema Studio. The team of Totema Studio did all of the game design and the team at Eckinox made all of the web systems, including the API, the save of all the information and session management. All I needed to do, along with two other students, was to program the games for the platform. However, to be able to interact with the systems made by Eckinox, we needed to learn new technologies to complete this project. Those technologies where Node Packet Manager, Typescript, Vue 3.0 and Phaser.<br><br>For this project, I needed to make a global and versatile class for the interactible elements fo the games as well as two games, the Labyrinth of Inhibition and the Cauldron of Organisation.",
+
         //////////////////////////////////////////////////////////////////////
+
         "projects-disclaimer": "Click on the project banner to show the content.",
+
         //////////////////////////////////////////////////////////////////////
+
         "projects-encage-ai": "Artificial Intelligence",
         "projects-encage-ai-introduction": "The biggest challenge of our project was without a doubt the artificial intelligence of the birds. Since the heart of our game stands on capturing and hunting birds for the family company, we had to make sure the bird had the behaviour of a real life bird. This task ended up being more complicated than we first anticipated since we did not have much experience using artificial intelligence with Unreal Engine. I helped my colleagues a lot with different algorithms, such as the destination selection and the movement, but the main aspect I had to work on was the detection of the movement, the decision making of the bird as well as obstacle avoidance.",
         "projects-encage-ai-detection": "Detection",
@@ -87,10 +106,14 @@ const data = {
         "projects-encage-seeds-content": "For the next part of the game, we wanted to introduce a new mechanic in the game to add a new level of complexity into it. We have decided to add a bait mechanic in forms of seeds with the goal to attract the birds into one area in order to capture them. This also allowed our level designer to place birds in high places and make them inaccessible to the players unless they use our bait mechanic.",
         "projects-encage-seeds-changes": "Required Changes",
         "projects-encage-seeds-changes-content": "To make this mechanic work, we needed to add features to both our player and the birds. First, we needed to add the ability for the player to place the seeds. Next, for the birds, we needed to add a lot more functionalities. First, we need to make sure the birds could detect the seeds. This part was pretty simple since we could use a Environment Query System (EQS) query to find the bait around the bird. Afterwards, after detecting the seeds, the bird needs to go to the seed. This was pretty simple since we already made our custom movement for the bird, so we just need to specify the position to the task and it will fly to that position. For the last part, we needed to change the detection system so the birds would be less reactive to the player when it is eating. We have decided the birds would be 50% less reactive when it is eating.",
+
         //////////////////////////////////////////////////////////////////////
+
         "projects-genetic-warfare-link": "<a href=\"https://davidnina1.itch.io/genetic-warfare\" target=\"_blank\" class=\"card-url\"><div><strong>Try the game here!</strong></div></a>",
         "projects-genetic-warfare-intro": "",
+
         //////////////////////////////////////////////////////////////////////
+
         "projects-hamstorm-camera-management": "Camera Management",
         "projects-hamstorm-camera-management-content": "The camera management is a vital part of the game since it allows us to change our perspective of the puzzle and better understand how each part of the puzzle interacts with each other. We have an isometric camera view that can rotate at 90&deg; intervals, we can zoom and unzoom and we can also move the camera using the <i>WASD</i> keys on our keyboard. All those features allow the player to better understand the puzzle or allow the player to see the puzzle from another angle which could help them get further into the game.",
         "projects-hamstorm-challenges": "Conception challenges",
@@ -126,9 +149,18 @@ const data = {
         "projects-hamstorm-revert-bugs-content": "We encountered a lot of bugs when implementing this new system. One of the bugs we encountered was when we suffered a death from Soop in a level where there were no moving rats, the death ended up registering in the next turn instead of being in the turn of the movement. To fix this issue, we have added a new condition to end the turn which states that there needs to be no rat attacking Hamstörm to end the turn. Another bug we encountered was linked to the wall trap's projectile. When there was a projectile in movement, it could kill a rat at the end of a turn and its death would register only in the next turn. To fix this bug, we added two new conditions to end the turn, which are that a projectile cannot be in movement and a rat cannot be dying. Bugs caused by the revert system were the most common type of bug we encountered while developing this game.",
         "projects-hamstorm-steam": "Steam Integration",
         "projects-hamstorm-steam-content": "For the Steam integration, we started by using the <i>Online Subsystem Steam</i> (OSS) plugin from Unreal. The usage of this plugin is very practical since the configuration is done within the Unreal Editor. With the usage of OSS, we were able to use the Steam overlay as well as integrating the achievements in the game. However, to choose the language, we wanted to set the language by using the Steam client's language for the game on the first launch. However, OSS cannot get the language of the user, so we needed to change the approach and integrate the Steam SDK directly into our project. This change has given us multiple problems since we figured out after some debugging that we needed to remove the OSS plugin to use the SDK. This means we needed to reintegrate the achievements since we can no longer use the blueprint nodes provided by the OSS plugin that we removed from the project. After that, we needed to add the dll for the Steam SDK in our files to use it as well as adding our <i>steam_appid.txt</i> file in the installation folder of the Unreal Engine editor so we can test our Steam integration. The integration of the SDK took multiple hours of debugging since the documentation isn't that great and it was our first-time integrating Steam in a game.",
+
         //////////////////////////////////////////////////////////////////////
+
         "projects-home-content": "I invite you to visit my projects page. This page has everything regarding my video game projects."
     },
+
+    //////////////////////////////////////////////////////////////////////
+    //
+    //  FRENCH
+    //
+    //////////////////////////////////////////////////////////////////////
+
     "fr": {
         "about-me": "À propos",
         "about-me-cegep": "CÉGEP de l'Outaouais",
@@ -141,7 +173,7 @@ const data = {
         "about-me-cpp-title": "C++",
         "about-me-cpp-content": "Le C++ est le langage que j'ai appris le plus récemment. Je n'ai que commencé à l'apprendre au début de l'université, mais j'ai eu beaucoup d'opportunités à l'utiliser puisque nous utilisons beaucoup le moteur de jeux <i>Unreal Engine</i> et que les cours généraux en informatique nous demandent d'utiliser ce langage de programmation. J'ai réussi à maîtriser la programmation orienté objet et les pointeurs dans ce langage de programmation.",
         "about-me-home-content": "Visitez ma page À propos. Dans cette page, vous pourrez en apprendre un peu plus à propos de moi, mes compétences ainsi que mon expérience.",
-        "about-me-introduction": "Je suis Éric Hébert, un étudiant en développement de jeux vidéo à l'Université du Québec à Chicoutimi. Depuis que je suis jeune, je suis intéressé par l'informatique et les jeux vidéo. Je me rappelle de jouer à la <i>Nintendo 64</i> avec mes frères ou même à <i>Runescape</i> sur nos ordinateurs. Cette passion, développé depuis ma jeunesse, m'a porté à changer du développement web vers le développement de jeux vidéo.",
+        "about-me-introduction": "Je suis Éric Hébert, un bachelier en développement de jeux vidéo gradué de l'Université du Québec à Chicoutimi. Depuis que je suis jeune, je suis intéressé par l'informatique et les jeux vidéo. Je me rappelle de jouer à la <i>Nintendo 64</i> avec mes frères ou même à <i>Runescape</i> sur nos ordinateurs. Cette passion, développé depuis ma jeunesse, m'a porté à changer du développement web vers le développement de jeux vidéo.",
         "about-me-java-title": "Java",
         "about-me-java-content": "Le Java est un langage que je n'ai pas beaucoup utilisé, mais qui est similaire au C#. Je l'ai surtout utilisé pour le développement d'applications mobiles et pour la programmation réseau.",
         "about-me-js-title": "JavaScript",
@@ -154,6 +186,19 @@ const data = {
         "about-me-university": "Université du Québec à Chicoutimi",
         "about-me-university-content": "J'ai choisi le développement en jeux vidéo cet université puisque j'avais déjà entendu de cet université lors de mon temps au CÉGEP. Grâce à mon parcours académique à cet université, j'ai appris à programmé en C++, tout le processus de développement de jeux vidéo, notamment la conception, répondre aux besoins d'un client, collaborer avec des artistes, et le développement de jeux avec les moteurs Unreal Engine ainsi que Unity 3D.",
         "about-me-university-information": "Baccalauréat en développement de jeux vidéo, 2021-2024",
+        "about-me-work": "Expérience professionnelle",
+        "about-me-work-cra": "Développeur de Technologie informatique",
+        "about-me-work-cra-content": "Mon emploi à l'Agence du revenu du Canada est mon premier emploi en informatique. Cet emploi m'a permis d'obtenir mes bases de mes compétences professionelles, notamment la communication avec des clients et de collègues, le développement dynamique, la gestion de données personnelles, ainsi que la documentation de code. Pour cet emploi, j'ai aussi appris un nouveau langage de programmation et j'ai développé des systèmes de données.",
+        "about-me-work-cra-information": "Agence du revenu du Canada, Janvier 2020 - Août 2021",
+        "about-me-work-eckinox": "Développeur de jeux vidéo",
+        "about-me-work-eckinox-content": "Pour ce travail, nous avons collaboré avec Éckinox et Totema Studio pour la réalisation des jeux pour la plateforme. J'ai dû apprendre un nouveau moteur de jeux ainsi que plusieurs technologies webs pour la réalisation de ce travail. Aussi, j'ai collaboré avec deux autres développeurs pour la création des jeux et de la structure du code, ainsi que l'intégration de l'API développé pour sauvegarder les statistiques des joueurs. Nous avons aussi utilisé plusieurs outils de gestion de projet, notamment le <i>daily scrum</i> ainsi qu'un système de billets, dans ce cas-ci, <i>Jira</i>.",
+        "about-me-work-eckinox-information": "Contrat pour Éckinox, Juin 2023 - Octobre 2023",
+        "about-me-work-ta": "Aide pédagogique pour le cours <i>Développement avancé avec moteur de jeux</i>",
+        "about-me-work-ta-content": "Pour ce cours, mon travail était d'offrir mon support aux élèves qui avaient des bugs dans leur travaux pratique durant la séance de travaux dirigés. J'ai offert aux élèves mes connaissances des moteurs de jeu <i>Unity</i> et <i>Unreal Engine</i> ainsi que mes habiletés de débogage et de création d'algorithmes. Mon aide a surtout été utile pour les travaux pratiques portant sur Unreal Engine, puisque c'est beaucoup plus difficile de trouver de l'information pour ce moteur et que j'ai beaucoup d'expérience avec le moteur. Cet emploi m'a permis d'améliorer mes compétences à lire et comprendre le travail des autres et d'offrir des solutions de manières efficaces.",
+        "about-me-work-ta-information": "Université du Québec à Chicoutimi, Janvier 2024 - Mai 2024",
+
+        //////////////////////////////////////////////////////////////////////
+
         "developer": "Éric Hébert",
         "developer-info": "Développeur de jeux vidéo",
         "developer-info-content": "Je suis Éric Hébert, un étudiant en développement de jeux vidéo à l'Université du Québec à Chicoutimi. Je suis habile avec plusieurs moteur de jeux, notamment Unreal Engine, Unity 3D ainsi que PhaserJS. Je vous invite à naviguer mon site.",
@@ -161,7 +206,9 @@ const data = {
         "home": "Accueil",
         "lang": "EN",
         "projects": "Projets",
+
         //////////////////////////////////////////////////////////////////////
+
         "projects-bambooza-article": "<a href=\"https://ici.radio-canada.ca/nouvelle/2021611/deficit-attention-jeu-interactif\" target=\"_blank\" class=\"card-url\"><div><strong>Article de Radio-Canada du lancement de la plateforme <i>Bambooza</i></strong></div></a>",
         "projects-bambooza-cauldron": "Chaudron",
         "projects-bambooza-cauldron-content": "Le deuxième jeu que j'ai fait est le chaudron. Ce jeu était beaucoup plus difficile que le labyrinthe. Le jeu avait pour but d'améliorer l'organisation du joueur. Ce jeu avait beaucoup de composante, soit les ingrédients, les recettes et les bols. La partie la plus difficile de jeu était les bols. ",
@@ -185,9 +232,13 @@ const data = {
         "projects-bambooza-link": "<a href=\"https://jeux.bambooza.ca\" target=\"_blank\" class=\"card-url\"><div><strong>Lien vers la plateforme</strong></div></a>",
         "projects-bambooza-my-role": "Mon rôle",
         "projects-bambooza-my-role-content": "Pour ce projet, nous avons collaboré avec les équipes d'Eckinox et de Totema Studio. L'équipe de Totema a fait tout le game design et l'équipe d'Eckinox ont fait tous les systèmes web, dont l'API et toute la sauvegarde d'information et de session. Tout ce que je devais faire, avec deux autres collègues étudiants, était de programmer les jeux. Cependant, pour pouvoir interagir avec les systèmes d'Eckinox, nous avons du apprendre de nouvelles technologies pour pouvoir compléter le projet. Ces technologies sont <i>Node Packet Manager</i>, <i>Typescript</i>, <i>Vue 3.0</i> et <i>Phaser</i>.<br><br>Pour le projet, j'ai fait une classe globale et versatile pour les éléments interactifs des jeux, ainsi que deux jeux, le <i>Labyrinthe de l'inhibition</i> et le <i>Chaudron de l'organisation</i>.",
+
         ////////////////////////////////////////////////////////
+
         "projects-disclaimer": "Cliquez sur la bannière du projet pour afficher le contenu.",
+
         ////////////////////////////////////////////////////////
+
         "projects-encage-ai": "Intelligence artificielle",
         "projects-encage-ai-detection": "Détection",
         "projects-encage-ai-detection-content": "Pour la détection, nous devions changer le comportement de l'oiseau dépendamment du mouvement du joueur. L'oiseau va se baser sur deux sens, soit la vision et le son. Au niveau du son, plus que le personnage bouge rapidement, plus que l'oiseau va réagir. La zone de détection du son est le plus gros cercle montrer dans l'image ci-contre. Selon la force du son, une certaine partie proportionnelle à la force du son est utilisée. Cette proportion est basée sur la vitesse courante du joueur sur la vitesse maximale du joueur. Donc, si le joueur court à 50% de la vitesse maximale, la proportion utilisée du cercle sera de 50%.",
@@ -217,10 +268,14 @@ const data = {
         "projects-encage-seeds-content": "Pour la continuation du jeu, nou voulions introduire une nouvelle mécanique dans le jeu pour ajouter un nouveau niveau de complexité dans le jeu. Nous avons décidé d'ajouter une mécanique d'appat sous la forme de graines dans le but d'attirer les oiseaux en un point pour pouvoir ensuite les capturer. Ceci a aussi permis à notre designer de niveaux de placer des oiseaux en hauteur et de les rendre inaccessible aux joueurs à moins d'utiliser notre mécanique d'appats.",
         "projects-encage-seeds-changes": "Changements requis",
         "projects-encage-seeds-changes-content": "Pour le fonctionnement de cette mécanique, nous devions ajouter des fonctionnalités au joueur et aux oiseaux. Premièrement, nous avons ajouter au joueur la fonctionnalité de placer des graines. Ensuite, pour les oiseaux, il a fallu ajouter plus de fonctionnement. Premièrement, il faut que les oiseaux puissent détecter les graines. Cette partie est assez simple puisse que nous pouvons ajouter une requête <i>Environment query system</i> (EQS) pour trouver les appats à l'entour de l'oiseau. Ensuite, après avoir détecté les graines, il faut qu'il se dirige vers sa position. Ceci est aussi assez simple puisque nous avions déjà créé notre mouvement auparavant, donc il fallait seulement préciser une endroit pour qu'il s'y dirige. Pour la dernière partie, nous devions changer la détection pour que les oiseaux soient moins sensibles envers le joueur lorsqu'ils mangent. Nous avons décidé de mettre la détection à 50% lorsqu'ils mangent.",
+
         /////////////////////////////////////////
+
         "projects-genetic-warfare-link": "<a href=\"https://davidnina1.itch.io/genetic-warfare\" target=\"_blank\" class=\"card-url\"><div><strong>Essayez le jeu ici!</strong></div></a>",
         "projects-genetic-warfare-intro": "<i>Genetic Warfare</i> est un jeu de combat un contre un local à la manette que j'ai fait en équipe lors de la <i>Wonderjam 2024</i>. Pour cette jam, il y avait le thème commun de la génétique et pour notre équipe, nous devions choisir deux de trois choix, soit <i>versus</i> et <i>Ton allié est aussi ton ennemi</i>.",
+
         /////////////////////////////////////////
+
         "projects-hamstorm-camera-management": "Gestion de la caméra",
         "projects-hamstorm-camera-management-content": "La gestion de la caméra est une partie très importante du jeu puisqu'elle permet de mettre en perspective les puzzles du jeu et mieux comprendre les parties du puzzle et comment elles interagissent entre elles. Nous avons une caméra en vue isométrique qui peut faire une rotation à coups de 90&deg;, on peut <i>zoomer</i> et <i>dézoomer</i> et nous pouvons aussi déplacer la caméra à l'aide des touches <i>WASD</i>. Toutes ses fonctionnalités permettent au joueur de mieux comprendre le puzzle ou de le voir sous un autre angle qui pourrait les aider à se débloquer.",
         "projects-hamstorm-challenges": "Défis de conception",
@@ -256,7 +311,9 @@ const data = {
         "projects-hamstorm-revert-bugs-content": "Nous avons rencontré plusieurs bugs lors de l'implémentation du retour en arrière. Un des premiers bugs que nous avons rencontrés est que lorsque nous mourions par Soop dans un niveau où il n'y avait pas de rats qui bougeait, la mort se retrouvait dans le prochain tour au lieu d'être dans le même tour que le mouvement. Pour se faire, nous avons ajouté une condition à la fin de notre tour qui indique qu'aucun rat doit être en train d'attaquer Hamstörm pour compléter le tour. Un autre bug que nous avons rencontré est lié à nos projectiles. Lorsque nous avions un projectile en mouvement, il pouvait tuer un rat après la fin d'un tour et sa mort se faisait le tour suivant. Pour régler ce bug, nous avons ajouté deux conditions à la fin du tour, un projectile ne peut pas être en mouvement et un rat ne peut pas être en train de mourir. Les bugs reliés au retour en arrière sont les bugs principaux que nous avons rencontrés lors du développement de notre jeu.",
         "projects-hamstorm-steam": "Intégration Steam",
         "projects-hamstorm-steam-content": "Pour l'intégration Steam, nous avons commencé en utilisant le plugin <i>Online Subsystem Steam</i> (OSS) de Unreal. L'utilisation de ce plugin se fait très bien puisque toutes les configurations se fait directement dans l'éditeur Unreal. Avec l'utilisation de OSS, nous pouvions utiliser l'overlay Steam ainsi que nous pouvions intégrer les <i>achievements</i> dans le jeu. Cependant, pour le choix de langage, nous voulions que la première fois que nous ouvrons Steam, le jeu prend la langue de Steam et ensuite on décide si on met le jeu en français ou en anglais. Cependant, OSS ne permet pas d'obtenir la langue du joueur, donc nous devions changer notre approche et intégrer le SDK de Steam directement dans le projet. Ceci nous a donner quelques problèmes puisque nous avons conclu que nous devions retirer OSS pour pouvoir utiliser le Steam SDK. Aussi, ceci veut dire que nous devions réintégrer les achievements puisque nous ne pouvons plus utiliser les nodes Blueprint fournit par OSS puisque nous l'avons retiré du projet. Ensuite, il a fallu que nous ajoutions la dll de Steam dans nos fichiers pour pouvoir utiliser le SDK ainsi qu'il a fallu ajouter notre <i>steam_appid.txt</i> dans le dossier d'installation de notre éditeur pour que l'on puisse tester. L'intégration du SDK nous a pris plusieurs heures de débogage puisque la documentation n'est pas excellente et que c'était notre première fois que nous intégrions Steam dans un jeu.",
+
         /////////////////////////////////////////
+
         "projects-home-content": "Je vous invite à voir ma page projets. Cette page contient tous mes projets reliés au développement de jeux vidéos."
     }
 }
