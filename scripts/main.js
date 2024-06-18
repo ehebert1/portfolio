@@ -276,6 +276,11 @@ window.onload = () => {
 
     document.querySelectorAll("[project-target]")
         .forEach((elm) => {elm.addEventListener("click", showProjectContent)})
+
+    if ((project = UrlParamManager.getUrlParam("project")) != undefined) {
+        loadProjectByUrl(project)
+        document.querySelector(`#prj-${project}`).scrollIntoView()
+    }
 }
 
 function updateStrings() {
@@ -314,4 +319,10 @@ function showProjectContent(evt) {
     body.style.background = `url('images/${evt.target.attributes["project-background"].value}')`
     body.style.backgroundRepeat = 'no-repeat'
     body.style.backgroundAttachment = 'fixed'
+    evt.target.scrollIntoView()
+}
+
+function loadProjectByUrl(projectName) {
+    let $img = document.querySelector(`#prj-${projectName}`)
+    $img.click()
 }
