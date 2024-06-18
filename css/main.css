@@ -253,3 +253,7 @@ img.project-image {
     align-items: center;
     justify-content: center;
 }
+
+.logo {
+    width: 100%;
+}
