@@ -388,6 +388,7 @@ function showProjectContent(evt) {
     body.style.background = `url('images/${evt.target.attributes["project-background"].value}')`
     body.style.backgroundRepeat = 'no-repeat'
     body.style.backgroundAttachment = 'fixed'
+    body.style.backgroundSize = 'cover'
     evt.target.scrollIntoView()
 }
 
