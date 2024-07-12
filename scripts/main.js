@@ -50,6 +50,7 @@ const data = {
         "home": "Home",
         "lang": "FR",
         "projects": "Projects",
+        "school-projects": "School Projects",
 
         //////////////////////////////////////////////////////////////////////
 
@@ -218,6 +219,7 @@ const data = {
         "home": "Accueil",
         "lang": "EN",
         "projects": "Projets",
+        "school-projects": "Projets d'école",
 
         //////////////////////////////////////////////////////////////////////
 
