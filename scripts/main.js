@@ -1,5 +1,11 @@
 const data = {
     "en": {
+        //////////////////////////////////////////////////////////////////////
+        //
+        //  English
+        //
+        //////////////////////////////////////////////////////////////////////
+
         "about-me": "About me",
         "about-me-cegep": "CEGEP de l'Outaouais",
         "about-me-cegep-content": "I chose computer science at this CEGEP since I wanted to become a programmer and this program allowed me to learn programming while specializing myself towards website development, which I started learning during my high school studies. At this school, I managed to learn the basics of programming, like object oriented programming, web development with multiple frameworks (ASP.NET MVC, Laravel, etc.), mobile development as well as network programming.",
@@ -50,7 +56,12 @@ const data = {
         "home": "Home",
         "lang": "FR",
         "projects": "Projects",
+        "school-projects": "School Projects",
 
+        //////////////////////////////////////////////////////////////////////
+        //
+        //  Bambooza
+        //
         //////////////////////////////////////////////////////////////////////
 
         "projects-bambooza-article": "<a href=\"https://ici.radio-canada.ca/nouvelle/2021611/deficit-attention-jeu-interactif\" target=\"_blank\" class=\"card-url\"><div><strong>CBC article of the launch of the <i>Bambooza</i> platform</strong></div></a>",
@@ -81,6 +92,10 @@ const data = {
 
         "projects-disclaimer": "Click on the project banner to show the content.",
 
+        //////////////////////////////////////////////////////////////////////
+        //
+        //  Heritage
+        //
         //////////////////////////////////////////////////////////////////////
 
         "projects-encage-ai": "Artificial Intelligence",
@@ -114,10 +129,18 @@ const data = {
         "projects-encage-seeds-changes-content": "To make this mechanic work, we needed to add features to both our player and the birds. First, we needed to add the ability for the player to place the seeds. Next, for the birds, we needed to add a lot more functionalities. First, we need to make sure the birds could detect the seeds. This part was pretty simple since we could use an Environment Query System (EQS) query to find the bait around the bird. Afterwards, after detecting the seeds, the bird needs to go to the seed. This was pretty simple since we already made our custom movement for the bird, so we just need to specify the position to the task and it will fly to that position. For the last part, we needed to change the detection system so the birds would be less reactive to the player when it is eating. We have decided the birds would be 50% less reactive when it is eating.",
 
         //////////////////////////////////////////////////////////////////////
+        //
+        //  Genetic Warfare
+        //
+        //////////////////////////////////////////////////////////////////////
 
         "projects-genetic-warfare-link": "<a href=\"https://davidnina1.itch.io/genetic-warfare\" target=\"_blank\" class=\"card-url\"><div><strong>Try the game here!</strong></div></a>",
         "projects-genetic-warfare-intro": "",
 
+        //////////////////////////////////////////////////////////////////////
+        //
+        //  Hamstorm
+        //
         //////////////////////////////////////////////////////////////////////
 
         "projects-hamstorm-camera-management": "Camera Management",
@@ -158,12 +181,31 @@ const data = {
 
         //////////////////////////////////////////////////////////////////////
 
-        "projects-home-content": "I invite you to visit my projects page. This page has everything regarding my video game projects."
+        "projects-home-content": "I invite you to visit my projects page. This page has everything regarding my video game projects.",
+
+        //////////////////////////////////////////////////////////////////////
+        //
+        //  School Projects
+        //
+        //////////////////////////////////////////////////////////////////////
+
+        "school-projects-battleship": "Online Multiplayer Battleship",
+        "school-projects-battleship-content": "",
+        "school-projects-battleship-ngo": "",
+        "school-projects-battleship-ngo-content": "",
+        "school-projects-battleship-relay": "",
+        "school-projects-battleship-relay-content": "",
+        "school-projects-battleship-technology": "Technology used: Unity, Networking with GameObjects, Unity Services, Visual Studio.",
+        "school-projects-title": "School Projects",
     },
 
     //////////////////////////////////////////////////////////////////////
     //
+    //
+    //
     //  FRENCH
+    //
+    //
     //
     //////////////////////////////////////////////////////////////////////
 
@@ -218,7 +260,12 @@ const data = {
         "home": "Accueil",
         "lang": "EN",
         "projects": "Projets",
+        "school-projects": "Projets d'école",
 
+        //////////////////////////////////////////////////////////////////////
+        //
+        //  Bambooza
+        //
         //////////////////////////////////////////////////////////////////////
 
         "projects-bambooza-article": "<a href=\"https://ici.radio-canada.ca/nouvelle/2021611/deficit-attention-jeu-interactif\" target=\"_blank\" class=\"card-url\"><div><strong>Article de Radio-Canada du lancement de la plateforme <i>Bambooza</i></strong></div></a>",
@@ -249,7 +296,11 @@ const data = {
 
         "projects-disclaimer": "Cliquez sur la bannière du projet pour afficher le contenu.",
 
-        ////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////
+        //
+        //  Heritage
+        //
+        //////////////////////////////////////////////////////////////////////
 
         "projects-encage-ai": "Intelligence artificielle",
         "projects-encage-ai-detection": "Détection",
@@ -281,12 +332,20 @@ const data = {
         "projects-encage-seeds-changes": "Changements requis",
         "projects-encage-seeds-changes-content": "Pour le fonctionnement de cette mécanique, nous devions ajouter des fonctionnalités au joueur et aux oiseaux. Premièrement, nous avons ajouté au joueur la fonctionnalité de placer des graines. Ensuite, pour les oiseaux, il a fallu ajouter plus de fonctionnement. Premièrement, il faut que les oiseaux puissent détecter les graines. Cette partie est assez simple puisse que nous pouvons ajouter une requête <i>Environment query system</i> (EQS) pour trouver les appâts à l'entour de l'oiseau. Ensuite, après avoir détecté les graines, il faut qu'il se dirige vers sa position. Ceci est aussi assez simple puisque nous avions déjà créé notre mouvement auparavant, donc il fallait seulement préciser une endroit pour qu'il s'y dirige. Pour la dernière partie, nous devions changer la détection pour que les oiseaux soient moins sensibles envers le joueur lorsqu'ils mangent. Nous avons décidé de mettre la détection à 50% lorsqu'ils mangent.",
 
-        /////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////
+        //
+        //  Genetic Warfare
+        //
+        //////////////////////////////////////////////////////////////////////
 
         "projects-genetic-warfare-link": "<a href=\"https://davidnina1.itch.io/genetic-warfare\" target=\"_blank\" class=\"card-url\"><div><strong>Essayez le jeu ici!</strong></div></a>",
         "projects-genetic-warfare-intro": "<i>Genetic Warfare</i> est un jeu de combat un contre un local à la manette que j'ai fait en équipe lors de la <i>Wonderjam 2024</i>. Pour cette jam, il y avait le thème commun de la génétique et pour notre équipe, nous devions choisir deux de trois choix, soit <i>versus</i> et <i>Ton allié est aussi ton ennemi</i>.",
 
-        /////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////
+        //
+        //  Hamstorm
+        //
+        //////////////////////////////////////////////////////////////////////
 
         "projects-hamstorm-camera-management": "Gestion de la caméra",
         "projects-hamstorm-camera-management-content": "La gestion de la caméra est une partie très importante du jeu puisqu'elle permet de mettre en perspective les puzzles du jeu et mieux comprendre les parties du puzzle et comment elles interagissent entre elles. Nous avons une caméra en vue isométrique qui peut faire une rotation à coups de 90&deg;, on peut <i>zoomer</i> et <i>dézoomer</i> et nous pouvons aussi déplacer la caméra à l'aide des touches <i>WASD</i>. Toutes ses fonctionnalités permettent au joueur de mieux comprendre le puzzle ou de le voir sous un autre angle qui pourrait les aider à se débloquer.",
@@ -326,7 +385,22 @@ const data = {
 
         /////////////////////////////////////////
 
-        "projects-home-content": "Je vous invite à voir ma page projets. Cette page contient tous mes projets reliés au développement de jeux vidéos."
+        "projects-home-content": "Je vous invite à voir ma page projets. Cette page contient tous mes projets reliés au développement de jeux vidéos.",
+
+        //////////////////////////////////////////////////////////////////////
+        //
+        //  School Projects
+        //
+        //////////////////////////////////////////////////////////////////////
+
+        "school-projects-battleship": "Bataille navale multijoueur en ligne",
+        "school-projects-battleship-content": "Pour ce projet, nous devions recréer le jeu bataille navale à l'aide du moteur de jeu Unity et de la librairie <i>Networking with GameObjects</i> (NGO). Ce projet se faisait en équipe de quatre et comme que je m'intéressais à la programmation réseau, j'ai décidé de faire toute la partie réseau du projet. De plus, le gabarit de projet nécessitait seulement à faire fonctionner le projet en local (LAN), mais comme que je trouvais ça intéressant, j'ai décidé de le faire en ligne. Durant ce projet, j'ai du apprendre la librairie NGO, implémenter la connexion en ligne à l'aide des <i>Unity Relay Services</i>, déterminer quelles informations envoyer et comment les envoyer, adapter le code de mes pairs pour la fonctionnalité réseau ainsi que la logique tour par tour à travers le réseau.",
+        "school-projects-battleship-ngo": "Apprentissage de Networking with GameObjects",
+        "school-projects-battleship-ngo-content": "Pour pouvoir faire du multijoueur avec Unity, il faut savoir comment la librairie de NGO fonctionne et comment l'implémenter dans un projet. Heureusement, Unity a une très bonne documentation et il y a un <a href=\"https://docs-multiplayer.unity3d.com/netcode/current/tutorials/get-started-ngo/index.html\" target=\"_blank\">guide pour commencer avec la librairie NGO</a>. Ceci m'a beaucoup aidé à initialiser NGO dans le projet ainsi qu'à comprendre le fonctionnement du multijoueur fonctionne avec les <i>Remote Procedure Calls</i> (RPC).",
+        "school-projects-battleship-relay": "Implémentation de Unity Relay Services",
+        "school-projects-battleship-relay-content": "Pour permettre aux joueurs de se connecter en ligne, il a fallu utiliser un service qui permet l'authentification des joueurs et la connexion par un service en ligne. Grâce à mes recherches, j'ai découvert Unity Relay Services, qui permet d'utiliser les services Unity afin d'héberger une session (allocation) et de pouvoir se connecter à l'aide d'un code. Pour l'implémenter, j'ai suivi un tutoriel sur YouTube, qui montre comment faire l'authentification et comment créer et joindre une allocation.",
+        "school-projects-battleship-technology": "Technologie utilisée: Unity, <i>Networking with GameObjects</i>, <i>Unity Services</i>, Visual Studio.",
+        "school-projects-title": "Projets d'école"
     }
 }
 
@@ -388,6 +462,7 @@ function showProjectContent(evt) {
     body.style.background = `url('images/${evt.target.attributes["project-background"].value}')`
     body.style.backgroundRepeat = 'no-repeat'
     body.style.backgroundAttachment = 'fixed'
+    body.style.backgroundSize = 'cover'
     evt.target.scrollIntoView()
 }
 
